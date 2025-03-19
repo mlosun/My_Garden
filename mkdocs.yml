@@ -1,4 +1,70 @@
-site_name: My Docs
+# 站点名称
+site_name: 数字花园
 
+# # Github仓库
+# repo_name: mlosun/My_Garden
+# repo_url: https://github.com/mlosun/My_Garden
+# edit_uri: edit/source/docs/
+
+# 主题设置
 theme:
-  name: material
+  name: material  # 使用Material主题
+  language: zh    # 设置语言为中文
+
+  # # 自定义图标
+  # icon:
+  #   repo: fontawesome/brands/github  # GitHub图标
+  #   edit: material/pencil            # 编辑图标
+  #   view: material/eye               # 查看图标
+
+ # 主题功能设置
+  features:
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+    - navigation.tabs        # 启用顶部导航标签
+    - navigation.sections    # 启用章节导航
+    - navigation.path         # 启用面包屑导航
+    - navigation.top         # 启用返回顶部按钮
+    - navigation.indexes     # 启用章节索引
+    - navigation.expand      # 默认展开导航
+    - toc.follow            # 在页面滚动时保持目录的可见性
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/
+    - search.suggest        # 搜索建议
+    - search.highlight      # 搜索结果高亮
+    - search.share          # 搜索结果分享
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
+    - content.action.edit
+    - content.action.view
+
+  # 调色板设置
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+  palette: 
+    # 自动模式：根据用户的系统设置自动切换颜色方案
+    - media: "(prefers-color-scheme)"
+      primary: teal       # 主色调
+      accent: teal        # 强调色
+      toggle:
+        icon: material/brightness-auto  # 切换按钮图标：自动模式图标
+        name: 切换到浅色模式              # 切换按钮提示文本：切换到浅色模式
+    # 浅色模式：当用户系统偏好为浅色时使用
+    - media: "(prefers-color-scheme: light)"
+      scheme: default                   # 使用默认的浅色主题方案
+      primary: teal       # 主色调
+      accent: teal        # 强调色
+      toggle:
+        icon: material/brightness-7     # 切换按钮图标：浅色模式图标（太阳图标）
+        name: 切换到深色模式              # 切换按钮提示文本：切换到深色模式
+    # 深色模式：当用户系统偏好为深色时使用
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate                     # 使用深色主题方案
+      primary: teal       # 主色调
+      accent: teal        # 强调色
+      toggle:
+        icon: material/brightness-4     # 切换按钮图标：深色模式图标（月亮图标）
+        name: 切换到系统偏好              # 切换按钮提示文本：切换到系统偏好
+
+# 导航设置
+nav:
+  - 首页: index.md
+
+plugins:
+  - search   # 搜索插件
