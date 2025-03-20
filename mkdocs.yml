@@ -68,10 +68,13 @@ theme:
 
 # 导航设置
 nav:
-  - 首页: index.md
-  - 关于: about.md
-  - 笔记: 
-    - notes/index.md
+  - 首页:
+    - 首页: index.md
+    - 关于: about/index.md
+  - Python:
+    - Python/index.md
+  - 软件应用:
+    - Apps/index.md
 
 plugins:
   - search   # 搜索插件
