@@ -1,10 +1,14 @@
-# 站点名称
+# 站点信息
 site_name: 数字花园
+site_url: https://mlosun.com
+site_author: mlosun
+site_description: 站点描述
+copyright: Copyright &copy; 2025 mlosun
 
-# # Github仓库
-# repo_name: mlosun/My_Garden
-# repo_url: https://github.com/mlosun/My_Garden
-# edit_uri: edit/source/docs/
+# Github仓库
+repo_name: mlosun/My_Garden
+repo_url: https://github.com/mlosun/My_Garden
+edit_uri: edit/source/docs/
 
 # 主题设置
 theme:
@@ -65,6 +69,13 @@ theme:
 # 导航设置
 nav:
   - 首页: index.md
+  - 关于: about.md
+  - 笔记: 
+    - notes/index.md
+  - 博客: 
+    - blog/index.md
+
 
 plugins:
   - search   # 搜索插件
+  - blog     # 博客插件
