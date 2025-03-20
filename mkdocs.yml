@@ -72,10 +72,6 @@ nav:
   - 关于: about.md
   - 笔记: 
     - notes/index.md
-  - 博客: 
-    - blog/index.md
-
 
 plugins:
   - search   # 搜索插件
-  - blog     # 博客插件
