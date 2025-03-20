@@ -72,9 +72,12 @@ nav:
     - 首页: index.md
     - 关于: about/index.md
   - 技术:
-    - Tech/index.md
+    - tech/index.md
+    - Python: tech/Python.md
+    - Docker: tech/Docker.md
+    - Linux: tech/Linux.md
   - 应用:
-    - Apps/index.md
+    - apps/index.md
 
 plugins:
   - search   # 搜索插件
