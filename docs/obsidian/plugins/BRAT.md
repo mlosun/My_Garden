@@ -11,6 +11,7 @@ share: true
 市场:: [Obsidian](https://obsidian.md/plugins?id=obsidian42-brat)   
 仓库:: [GitHub](https://github.com/TfTHacker/obsidian42-brat)  
 文档:: [文档](https://tfthacker.com/BRAT)  
+状态:: ✅ 在用  
   
   
 ## 使用方法  
