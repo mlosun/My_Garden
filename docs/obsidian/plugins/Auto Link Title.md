@@ -7,11 +7,10 @@ share: true
 ## 基本信息  
   
 插件名称:: Auto Link Title  
-插件简介:: 自动提取网页链接的标题  
+插件简介:: 自动获取链接标题  
 市场:: [Obsidian](https://obsidian.md/plugins?search=obsidian-auto-link-title)   
 仓库:: [GitHub](https://github.com/zolrath/obsidian-auto-link-title)  
 文档:: 无  
-  
   
 ## 使用方法  
   
@@ -20,3 +19,6 @@ share: true
 ```markdown  
 [网页标题](网页链接)  
 ```  
+  
+- Ctrl/cmd + V 粘贴链接时，将自动获取网页标题  
+- Ctrl/cmd + Shift +V 粘贴链接时，将禁用该功能
