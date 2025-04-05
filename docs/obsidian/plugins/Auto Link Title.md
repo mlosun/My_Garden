@@ -8,8 +8,10 @@ share: true
   
 插件名称:: Auto Link Title  
 插件简介:: 自动提取网页链接的标题  
-Github:: [GitHub](https://github.com/zolrath/obsidian-auto-link-title)  
-Obsidian:: [Obsidian](https://obsidian.md/plugins?search=obsidian-auto-link-title)   
+市场:: [Obsidian](https://obsidian.md/plugins?search=obsidian-auto-link-title)   
+仓库:: [GitHub](https://github.com/zolrath/obsidian-auto-link-title)  
+文档:: 无  
+  
   
 ## 使用方法  
   

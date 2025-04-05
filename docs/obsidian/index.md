@@ -5,12 +5,12 @@ share: true
 title: Obsidian
 ---
   
-## 第三方插件  
+## 插件清单  
   
-| 标题                                                             | 插件简介        | Github                                                        | Obsidian                                                                | 最后更新       |  
-| -------------------------------------------------------------- | ----------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------- |  
-| [Auto Link Title](./plugins/Auto%20Link%20Title.md) | 自动提取网页链接的标题 | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](https://obsidian.md/plugins?search=obsidian-auto-link-title) | 2025-04-06 |  
-| [Enveloppe](./plugins/Enveloppe.md)             | \-          | \-                                                            | \-                                                                      | 2025-03-29 |  
+| 标题                                                             | 插件简介        | 市场                                                                      | 仓库                                                            | 文档 | 最后更新       |  
+| -------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -- | ---------- |  
+| [Auto Link Title](./plugins/Auto%20Link%20Title.md) | 自动提取网页链接的标题 | [Obsidian](https://obsidian.md/plugins?search=obsidian-auto-link-title) | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | 无  | 2025-04-06 |  
+| [Enveloppe](./plugins/Enveloppe.md)             | \-          | \-                                                                      | \-                                                            | \- | 2025-03-29 |  
   
   
 ## 最近更新  
