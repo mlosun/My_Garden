@@ -2,6 +2,7 @@
 created: 2025-04-05
 updated: 2025-04-06
 share: true
+title: 搜集一些MkDocs站点
 ---
   
 整理一些自己日常遇到的优秀 MkDocs 站点，后续或许会专门找时间整理一下。  
