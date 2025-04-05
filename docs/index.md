@@ -33,6 +33,7 @@ title: 首页
   
 ## 最近更新  
   
+- [Auto Link Title](./obsidian/plugins/Auto%20Link%20Title.md)  
 - [搜集一些MkDocs站点](./notes/%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9BMkDocs%E7%AB%99%E7%82%B9.md)  
 - [Enveloppe](./obsidian/plugins/Enveloppe.md)  
 - [frp - 群晖Nas内网穿透应用](./apps/frp%20-%20%E7%BE%A4%E6%99%96Nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8.md)  
@@ -42,4 +43,3 @@ title: 首页
 - [Memos - 开源自托管轻量笔记](./apps/Memos%20-%20%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0.md)  
 - [MTPhotos - 好用的照片管理系统](./apps/MTPhotos%20-%20%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.md)  
 - [Obsidian插件清单](./obsidian/Obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95.md)  
-- [Docker](./tech/Docker.md)  
