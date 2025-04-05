@@ -13,7 +13,7 @@ title: 首页
   
 然而事实上，我曾经花了大量的时间来研究如何提高笔记效率，却真正花在消化、整理笔记内容上的时间并不多。  
   
-结合目前市面上较为流行的 什么是数字花园？ 理念，我也打算建立起自己的花园。  
+结合目前市面上较为流行的 [数字花园](./notes/%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%EF%BC%9F.md) 理念，我也打算建立起自己的花园。  
   
 在尝试了多种发布方案后，最终决定使用「Obsidian + Enveloppe + MkDocs + Github」方案来实现这个站点。当然目前还只是一个初步方案，后续也会逐步完善。  
   
@@ -34,8 +34,12 @@ title: 首页
 ## 最近更新  
   
 - [插件：Enveloppe](./obsidian/%E6%8F%92%E4%BB%B6%EF%BC%9AEnveloppe.md)  
+- [frp - 群晖Nas内网穿透应用](./apps/frp%20-%20%E7%BE%A4%E6%99%96Nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8.md)  
+- [装机必备](./apps/%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87.md)  
+- [1Panel](./apps/1Panel.md)  
+- [Chrome扩展清单](./apps/Chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95.md)  
+- [Memos - 开源自托管轻量笔记](./apps/Memos%20-%20%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0.md)  
+- [MTPhotos - 好用的照片管理系统](./apps/MTPhotos%20-%20%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.md)  
+- [Obsidian插件清单](./obsidian/Obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95.md)  
 - [Docker](./tech/Docker.md)  
 - [Linux](./tech/Linux.md)  
-- [Python](./tech/Python.md)  
-- [B站视频收藏](./notes/B%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F.md)  
-- [值得学习的数字花园](./notes/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD.md)  
