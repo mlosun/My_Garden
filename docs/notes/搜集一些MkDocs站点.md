@@ -4,6 +4,7 @@ updated: 2025-04-06
 share: true
 ---
   
+整理一些自己日常遇到的优秀 MkDocs 站点，后续或许会专门找时间整理一下。  
 - [Material for MkDocs - Material for MkDocs 中文文档](https://mkdoc-material.llango.com/)  
 - [ElseWhere](https://duetorun.com/)  
 - [Mkdocs中文教程](https://wcowin.work/Mkdocs-Wcowin/)  
