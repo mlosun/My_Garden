@@ -48,7 +48,7 @@ theme:
       primary: teal       # 主色调
       accent: teal        # 强调色
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: 切换到深色模式
         
     # 深色模式设置
@@ -57,7 +57,7 @@ theme:
       primary: teal       # 主色调
       accent: teal        # 强调色
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: 切换到浅色模式
 # 插件设置
 plugins:
