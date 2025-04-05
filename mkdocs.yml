@@ -42,14 +42,6 @@ theme:
   # 调色板设置
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
   palette:
-    # 自动模式：根据系统设置自动切换
-    - media: "(prefers-color-scheme)"
-      primary: teal       # 主色调
-      accent: teal        # 强调色
-      toggle:
-        icon: material/brightness-auto
-        name: 切换到浅色模式
-        
     # 浅色模式设置
     - media: "(prefers-color-scheme: light)"
       scheme: default     # 使用默认的浅色主题方案
@@ -66,7 +58,7 @@ theme:
       accent: teal        # 强调色
       toggle:
         icon: material/brightness-4
-        name: 切换到系统偏好
+        name: 切换到浅色模式
 
 # 导航设置
 nav:
