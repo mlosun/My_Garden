@@ -34,7 +34,7 @@ title: 首页
 ## 最近更新  
   
 - [搜集一些MkDocs站点](./notes/%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9BMkDocs%E7%AB%99%E7%82%B9.md)  
-- [插件：Enveloppe](./obsidian/%E6%8F%92%E4%BB%B6%EF%BC%9AEnveloppe.md)  
+- [Enveloppe](./obsidian/plugins/Enveloppe.md)  
 - [frp - 群晖Nas内网穿透应用](./apps/frp%20-%20%E7%BE%A4%E6%99%96Nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8.md)  
 - [装机必备](./apps/%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87.md)  
 - [1Panel](./apps/1Panel.md)  
