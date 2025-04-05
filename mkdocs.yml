@@ -1,0 +1,85 @@
+# 站点信息
+site_name: 数字花园
+site_url: https://mlosun.com
+site_author: mlosun
+site_description: Just a personal website.
+copyright: Copyright &copy; 2025 mlosun
+
+# Github仓库
+repo_name: mlosun/My_Garden
+repo_url: https://github.com/mlosun/My_Garden
+edit_uri: edit/main/docs/
+
+# 主题设置
+theme:
+  name: material  # 使用Material主题
+  language: zh    # 设置语言为中文
+
+  # # 自定义图标
+  # icon:
+  #   repo: fontawesome/brands/github  # GitHub图标
+  #   edit: material/pencil            # 编辑图标
+  #   view: material/eye               # 查看图标
+
+ # 主题功能设置
+  features:
+    # 导航相关功能 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+    - navigation.tabs        # 在顶部显示主要导航标签
+    - navigation.sections    # 在侧边栏显示章节
+    - navigation.path        # 显示面包屑导航路径
+    - navigation.top         # 添加返回顶部按钮
+    - navigation.indexes     # 支持章节索引页面
+    - navigation.expand      # 默认展开导航菜单
+    - toc.follow             # 滚动时目录会跟随高亮当前位置
+    # 搜索相关功能 https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/
+    - search.suggest         # 提供搜索建议
+    - search.highlight       # 高亮搜索结果
+    - search.share           # 允许分享搜索结果
+    # 内容操作功能 https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
+    - content.action.edit    # 显示编辑当前页面的按钮
+    - content.action.view    # 显示查看源代码的按钮
+
+  # 调色板设置
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+  palette:
+    # 自动模式：根据系统设置自动切换
+    - media: "(prefers-color-scheme)"
+      primary: teal       # 主色调
+      accent: teal        # 强调色
+      toggle:
+        icon: material/brightness-auto
+        name: 切换到浅色模式
+        
+    # 浅色模式设置
+    - media: "(prefers-color-scheme: light)"
+      scheme: default     # 使用默认的浅色主题方案
+      primary: teal       # 主色调
+      accent: teal        # 强调色
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+        
+    # 深色模式设置
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate       # 使用深色主题方案
+      primary: teal       # 主色调
+      accent: teal        # 强调色
+      toggle:
+        icon: material/brightness-4
+        name: 切换到系统偏好
+
+# 导航设置
+nav:
+  - 首页:
+    - 首页: index.md
+    - 关于: about/index.md
+  - 技术:
+    - tech/index.md
+    - Python: tech/Python.md
+    - Docker: tech/Docker.md
+    - Linux: tech/Linux.md
+  - 应用:
+    - apps/index.md
+
+plugins:
+  - search   # 启用搜索插件，允许用户搜索网站内容
