@@ -80,6 +80,8 @@ nav:
     - Linux: tech/Linux.md
   - 应用:
     - apps/index.md
+  - Obsidian:
+    - obsidian/index.md
 
 plugins:
   - search   # 启用搜索插件，允许用户搜索网站内容
