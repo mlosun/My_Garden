@@ -11,6 +11,7 @@ share: true
 市场:: [Obsidian](https://obsidian.md/plugins?search=obsidian-auto-link-title)   
 仓库:: [GitHub](https://github.com/zolrath/obsidian-auto-link-title)  
 文档:: 无  
+状态:: ✅ 在用  
   
 ## 使用方法  
   
