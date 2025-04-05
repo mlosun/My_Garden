@@ -8,8 +8,6 @@ share: true
   
 ## 最近更新  
   
-| 标题                               | 最后更新       |  
-| -------------------------------- | ---------- |  
-| [Docker](./Docker.md) | 2024-12-10 |  
-| [Linux](./Linux.md)   | 2024-12-10 |  
-| [Python](./Python.md) | 2024-12-10 |  
+- [Docker](./Docker.md)  
+- [Linux](./Linux.md)  
+- [Python](./Python.md)  
