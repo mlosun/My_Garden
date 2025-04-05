@@ -1,9 +1,17 @@
 ---
 created: 2025-04-05
-updated: 2025-04-05
+updated: 2025-04-06
 share: true
 title: Obsidian
 ---
+  
+## 第三方插件  
+  
+| 标题                                                             | 插件简介        | Github                                                        | Obsidian                                                                | 最后更新       |  
+| -------------------------------------------------------------- | ----------- | ------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------- |  
+| [Auto Link Title](./plugins/Auto%20Link%20Title.md) | 自动提取网页链接的标题 | [GitHub](https://github.com/zolrath/obsidian-auto-link-title) | [Obsidian](https://obsidian.md/plugins?search=obsidian-auto-link-title) | 2025-04-06 |  
+| [Enveloppe](./plugins/Enveloppe.md)             | \-          | \-                                                            | \-                                                                      | 2025-03-29 |  
+  
   
 ## 最近更新  
   
