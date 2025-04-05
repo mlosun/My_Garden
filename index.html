@@ -75,11 +75,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#_1" class="md-skip">
-          跳转至
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -661,25 +656,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      最近更新
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -711,39 +687,19 @@
   
 
 
-<h1 id="_1">首页</h1>
-<h2 id="_2">最近更新</h2>
-<table>
-<thead>
-<tr>
-<th>标题</th>
-<th>最后更新</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="tech/Docker/">Docker</a></td>
-<td>2024-12-10</td>
-</tr>
-<tr>
-<td><a href="tech/Linux/">Linux</a></td>
-<td>2024-12-10</td>
-</tr>
-<tr>
-<td><a href="tech/Python/">Python</a></td>
-<td>2024-12-10</td>
-</tr>
-</tbody>
-</table>
+  <h1>首页</h1>
+
+<pre><code class="language-dataview">list updated AS 最后更新  
+WHERE contains(file.folder, this.file.folder)  
+WHERE file.name != &quot;index&quot;  
+WHERE share = true  
+</code></pre>
 
 
 
 
 
 
-
-  
-  
 
 
 
