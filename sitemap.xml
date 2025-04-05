@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mlosun.com/</loc>
+         <lastmod>2025-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mlosun.com/about/</loc>
+         <lastmod>2025-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mlosun.com/apps/</loc>
+         <lastmod>2025-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mlosun.com/tech/</loc>
+         <lastmod>2025-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mlosun.com/tech/Docker/</loc>
+         <lastmod>2025-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mlosun.com/tech/Linux/</loc>
+         <lastmod>2025-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mlosun.com/tech/Python/</loc>
+         <lastmod>2025-04-05</lastmod>
+    </url>
+</urlset>
