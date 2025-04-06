@@ -36,8 +36,8 @@ theme:
     - search.highlight       # 高亮搜索结果
     - search.share           # 允许分享搜索结果
     # 内容操作功能 https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
-    # - content.action.edit    # 显示编辑当前页面的按钮
-    # - content.action.view    # 显示查看源代码的按钮
+    - content.action.edit    # 显示编辑当前页面的按钮
+    - content.action.view    # 显示查看源代码的按钮
 
   # 调色板设置
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
