@@ -46,8 +46,8 @@ theme:
     # 浅色模式设置
     - media: "(prefers-color-scheme: light)"
       scheme: default     # 使用默认的浅色主题方案
-      primary: blue grey       # 主色调
-      accent: blue grey        # 强调色
+      primary: indigo       # 主色调
+      accent: indigo        # 强调色
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
@@ -55,8 +55,8 @@ theme:
     # 深色模式设置
     - media: "(prefers-color-scheme: dark)"
       scheme: slate       # 使用深色主题方案
-      primary: blue grey       # 主色调
-      accent: blue grey        # 强调色
+      primary: black       # 主色调
+      accent: black        # 强调色
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
@@ -65,9 +65,12 @@ plugins:
   - search   # 启用搜索插件
 
 extra:
-  analytics:
+  analytics: # Google Analytics
     provider: google
     property: G-0LZW6NDLSS
+  social: # 社交链接
+    - icon: fontawesome/brands/github
+      link: https://github.com/mlosun
 
 # 导航设置
 nav:
