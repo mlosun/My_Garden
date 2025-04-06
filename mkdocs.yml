@@ -18,11 +18,11 @@ theme:
   #     text: Roboto  # 常规字体
   #     code: Roboto Mono  #代码块字体
 
-  # # 自定义图标
-  # icon:
-  #   repo: fontawesome/brands/github  # GitHub图标
-  #   edit: material/pencil            # 编辑图标
-  #   view: material/eye               # 查看图标
+  # 自定义图标
+  icon:
+    repo: fontawesome/brands/github  # GitHub图标
+    edit: material/pencil            # 编辑图标
+    view: material/eye               # 查看图标
 
  # 主题功能设置
   features:
