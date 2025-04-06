@@ -15,7 +15,7 @@ theme:
   name: material  # 使用Material主题
   language: zh    # 设置语言为中文
   font:
-      text: Roboto  # 常规字体
+      text: Ma Shan Zheng  # 常规字体
       code: Roboto Mono  #代码块字体
 
   # # 自定义图标
