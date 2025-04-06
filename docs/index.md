@@ -33,6 +33,7 @@ title: 首页
   
 ## 最近更新  
   
+- [MTPhotos - 好用的照片管理系统](./apps/MTPhotos%20-%20%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.md)  
 - [Auto Link Title](./obsidian/plugins/Auto%20Link%20Title.md)  
 - [BRAT](./obsidian/plugins/BRAT.md)  
 - [File Explorer Note Count](./obsidian/plugins/File%20Explorer%20Note%20Count.md)  
@@ -42,4 +43,3 @@ title: 首页
 - [1Panel](./apps/1Panel.md)  
 - [Chrome扩展清单](./apps/Chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95.md)  
 - [Memos - 开源自托管轻量笔记](./apps/Memos%20-%20%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0.md)  
-- [MTPhotos - 好用的照片管理系统](./apps/MTPhotos%20-%20%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.md)  
