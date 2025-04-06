@@ -64,8 +64,9 @@ theme:
         name: 切换到浅色模式
 # 插件设置
 plugins:
-  - search   # 启用搜索插件，允许用户搜索网站内容
-  - git-revision-date-localized:
+  - search   # 启用搜索插件
+  - statistics  # 启用统计插件
+  - git-revision-date-localized: # 启用时间插件
       timezone: Asia/Shanghai
       locale: zh
       enable_creation_date: true
