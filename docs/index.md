@@ -6,11 +6,11 @@ title: 首页
 statistics: true
 ---
   
-# 首页  
+本站共有 {{ pages }} 个页面，{{ words }} 个字，{{ codes }} 行代码，{{ images }} 张图片。  
+  
+---  
   
 👋 你好！欢迎来到我的数字花园！  
-  
-本站共有 {{ pages }} 个页面，{{ words }} 个字，{{ codes }} 行代码，{{ images }} 张图片。  
   
 ## 这是什么  
   
