@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: 部署到 GitHub Pages
 
 on:
   push:
@@ -11,26 +11,26 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: 检出代码
         uses: actions/checkout@v4
         with:
-          ref: main  # 明确指定检出 source 分支
+          ref: main  # 明确指定检出 main 分支
 
-      - name: Setup Python
+      - name: 配置 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: Build site
+      - name: 构建站点
         run: mkdocs build --site-dir site
 
-      - name: Deploy to gh-pages
+      - name: 部署到 gh-pages 分支
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-          publish_branch: gh-pages  # 推送至 main 分支
+          publish_branch: gh-pages  # 部署到 gh-pages 分支
           keep_files: false     # 清理旧文件
