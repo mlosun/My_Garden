@@ -3,7 +3,7 @@ site_name: 数字花园
 site_url: https://mlosun.com
 site_author: mlosun
 site_description: Just a personal website.
-copyright: Copyright &copy; 2025 mlosun
+copyright: Copyright &copy; 2025 mlosun.com
 
 # Github仓库
 repo_name: mlosun/My_Garden
@@ -14,9 +14,9 @@ edit_uri: edit/main/docs/
 theme:
   name: material  # 使用Material主题
   language: zh    # 设置语言为中文
-  font:
-      text: Ma Shan Zheng  # 常规字体
-      code: Roboto Mono  #代码块字体
+  # font:
+  #     text: Roboto  # 常规字体
+  #     code: Roboto Mono  #代码块字体
 
   # # 自定义图标
   # icon:
