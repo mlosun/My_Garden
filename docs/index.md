@@ -3,12 +3,7 @@ created: 2025-03-20
 updated: 2025-04-06
 share: true
 title: 首页
-statistics: true
 ---
-  
-本站共有 {{ pages }} 个页面，{{ words }} 个字，{{ codes }} 行代码，{{ images }} 张图片。  
-  
----  
   
 👋 你好！欢迎来到我的数字花园！  
   
