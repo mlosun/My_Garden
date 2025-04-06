@@ -48,8 +48,8 @@ theme:
     # 浅色模式设置
     - media: "(prefers-color-scheme: light)"
       scheme: default     # 使用默认的浅色主题方案
-      primary: teal       # 主色调
-      accent: teal        # 强调色
+      primary: blue grey       # 主色调
+      accent: blue grey        # 强调色
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
@@ -57,8 +57,8 @@ theme:
     # 深色模式设置
     - media: "(prefers-color-scheme: dark)"
       scheme: slate       # 使用深色主题方案
-      primary: teal       # 主色调
-      accent: teal        # 强调色
+      primary: blue grey       # 主色调
+      accent: blue grey        # 强调色
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
