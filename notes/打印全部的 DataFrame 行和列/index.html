@@ -12,26 +12,24 @@
         <meta name="author" content="mlosun">
       
       
-        <link rel="canonical" href="https://mlosun.com/notes/">
-      
-      
-        <link rel="prev" href="../apps/">
+        <link rel="canonical" href="https://mlosun.com/notes/%E6%89%93%E5%8D%B0%E5%85%A8%E9%83%A8%E7%9A%84%20DataFrame%20%E8%A1%8C%E5%92%8C%E5%88%97/">
       
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>笔记 - 数字花园</title>
+        <title>打印全部的 DataFrame 行和列 - 数字花园</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +42,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -79,11 +77,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#_1" class="md-skip">
-          跳转至
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -94,7 +87,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href=".." title="数字花园" class="md-header__button md-logo" aria-label="数字花园" data-md-component="logo">
+    <a href="../.." title="数字花园" class="md-header__button md-logo" aria-label="数字花园" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -114,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              笔记
+              打印全部的 DataFrame 行和列
             
           </span>
         </div>
@@ -234,7 +227,7 @@
     
     
       <li class="md-tabs__item">
-        <a href=".." class="md-tabs__link">
+        <a href="../.." class="md-tabs__link">
           
   
   
@@ -256,7 +249,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../obsidian/" class="md-tabs__link">
+        <a href="../../obsidian/" class="md-tabs__link">
           
   
   
@@ -278,7 +271,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../tech/" class="md-tabs__link">
+        <a href="../../tech/" class="md-tabs__link">
           
   
   
@@ -300,7 +293,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../apps/" class="md-tabs__link">
+        <a href="../../apps/" class="md-tabs__link">
           
   
   
@@ -318,13 +311,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -360,7 +351,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="数字花园" class="md-nav__button md-logo" aria-label="数字花园" data-md-component="logo">
+    <a href="../.." title="数字花园" class="md-nav__button md-logo" aria-label="数字花园" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -417,7 +408,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href=".." class="md-nav__link ">
+            <a href="../.." class="md-nav__link ">
               
   
   
@@ -452,7 +443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   
@@ -507,7 +498,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../obsidian/" class="md-nav__link ">
+            <a href="../../obsidian/" class="md-nav__link ">
               
   
   
@@ -575,7 +566,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../tech/" class="md-nav__link ">
+            <a href="../../tech/" class="md-nav__link ">
               
   
   
@@ -610,7 +601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tech/Python/" class="md-nav__link">
+      <a href="../../tech/Python/" class="md-nav__link">
         
   
   
@@ -633,7 +624,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tech/Docker/" class="md-nav__link">
+      <a href="../../tech/Docker/" class="md-nav__link">
         
   
   
@@ -656,7 +647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tech/Linux/" class="md-nav__link">
+      <a href="../../tech/Linux/" class="md-nav__link">
         
   
   
@@ -711,7 +702,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../apps/" class="md-nav__link ">
+            <a href="../../apps/" class="md-nav__link ">
               
   
   
@@ -745,8 +736,6 @@
       
   
   
-    
-  
   
   
     
@@ -760,23 +749,22 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -790,7 +778,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             笔记
@@ -824,23 +812,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      最近更新
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -855,7 +826,7 @@
 
 
   
-    <a href="https://github.com/mlosun/My_Garden/edit/main/docs/notes/index.md" title="编辑此页" class="md-content__button md-icon">
+    <a href="https://github.com/mlosun/My_Garden/edit/main/docs/notes/打印全部的 DataFrame 行和列.md" title="编辑此页" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
     </a>
@@ -864,25 +835,24 @@
     
       
     
-    <a href="https://github.com/mlosun/My_Garden/raw/main/docs/notes/index.md" title="查看本页的源代码" class="md-content__button md-icon">
+    <a href="https://github.com/mlosun/My_Garden/raw/main/docs/notes/打印全部的 DataFrame 行和列.md" title="查看本页的源代码" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
     </a>
   
 
 
-  <h1>笔记</h1>
+  <h1>打印全部的 DataFrame 行和列</h1>
 
-<p>这个栏目用于存放未经整理过的笔记，会不定期将这些笔记的内容进行整理后移动到恰当的地方。  </p>
-<h2 id="_1">最近更新</h2>
-<ul>
-<li><a href="%E6%89%93%E5%8D%B0%E5%85%A8%E9%83%A8%E7%9A%84%20DataFrame%20%E8%A1%8C%E5%92%8C%E5%88%97/">打印全部的 DataFrame 行和列</a>  </li>
-<li><a href="%E5%88%A0%E9%99%A4%20Github%20%E4%BB%93%E5%BA%93%E5%85%A8%E9%83%A8%E7%9A%84%20commit%20%E8%AE%B0%E5%BD%95/">删除 Github 仓库全部的 commit 记录</a>  </li>
-<li><a href="%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9BMkDocs%E7%AB%99%E7%82%B9/">搜集一些MkDocs站点</a>  </li>
-<li><a href="B%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/">B站视频收藏</a>  </li>
-<li><a href="%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%EF%BC%9F/">什么是数字花园？</a>  </li>
-<li><a href="%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%E7%AB%99%E7%82%B9/">搜集一些数字花园站点</a>  </li>
-</ul>
+<p>在写 Python 时，经常需要打印 DataFrame 用于检查，但 DataFrame 的默认显示设置会对打印出来的行数和列数进行限制。  </p>
+<p>如果希望打印出 DataFrame 的全部行和列，可以通过如下方法设置：  </p>
+<pre><code class="language-python">import pandas as pd  
+
+pd.set_option('display.max_rows', None)  # 显示所有行  
+pd.set_option('display.max_columns', None)  # 显示所有列  
+pd.set_option('display.expand_frame_repr', False)  # 禁止自动换行  
+pd.set_option('display.width', None)  # 设置显示宽度为无限制  
+</code></pre>
 
 
 
@@ -961,10 +931,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.path", "navigation.top", "navigation.indexes", "navigation.expand", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.action.edit", "content.action.view"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.path", "navigation.top", "navigation.indexes", "navigation.expand", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
