@@ -63,6 +63,12 @@ theme:
 # 插件设置
 plugins:
   - search   # 启用搜索插件
+  - git-revision-date-localized:
+      type: iso_date #时间类型
+      timezone: Asia/Shanghai #时区
+      locale: zh_CN #首选语言
+      enable_creation_date: true #是否启用创建时间
+      enabled: true #是否启用
 
 extra:
   analytics: # Google Analytics
