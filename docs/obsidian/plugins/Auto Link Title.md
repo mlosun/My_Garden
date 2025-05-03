@@ -7,7 +7,7 @@ share: true
 ## 基本信息  
   
 插件名称:: Auto Link Title  
-插件简介:: 自动获取链接标题  
+简介:: 自动获取链接标题  
 市场:: [Obsidian](https://obsidian.md/plugins?search=obsidian-auto-link-title)   
 仓库:: [GitHub](https://github.com/zolrath/obsidian-auto-link-title)  
 状态:: ✅ 在用  
