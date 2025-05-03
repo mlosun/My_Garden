@@ -83,6 +83,9 @@ nav:
   - 首页:
     - 首页: index.md
     - 关于: about/index.md
+    - 更新计划: about/Roadmap.md
+    - 站点日志: about/ChangeLog.md
+
   - Obsidian:
     - obsidian/index.md
   - 技术:
