@@ -7,7 +7,7 @@ share: true
 ## 基本信息  
   
 插件名称:: File Explorer Note Count  
-插件简介:: 文件列表显示文件数量  
+简介:: 文件列表显示文件数量  
 市场:: [Obsidian](https://obsidian.md/plugins?id=file-explorer-note-count)   
 仓库:: [GitHub](https://github.com/ozntel/file-explorer-note-count)  
 状态:: ✅ 在用  
