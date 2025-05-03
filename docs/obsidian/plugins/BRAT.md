@@ -7,7 +7,7 @@ share: true
 ## 基本信息  
   
 插件名称:: BRAT  
-插件简介:: 可安装未上架的插件  
+简介:: 可安装未上架的插件  
 市场:: [Obsidian](https://obsidian.md/plugins?id=obsidian42-brat)   
 仓库:: [GitHub](https://github.com/TfTHacker/obsidian42-brat)  
 状态:: ✅ 在用  
