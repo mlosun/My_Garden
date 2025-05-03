@@ -1,9 +1,11 @@
 ---
 created: 2025-04-05
-updated: 2025-05-03
+updated: 2025-05-04
 share: true
 title: Obsidian
 ---
+  
+这个栏目主要用来整理自己使用 Obsidian 过程中的一些插件和心得。  
   
 ## 插件列表  
   
@@ -18,6 +20,7 @@ title: Obsidian
   
 | 标题 | 简介 | 状态 | 最后更新 |  
 | -- | -- | -- | ---- |  
+  
   
 ## 最近更新  
   

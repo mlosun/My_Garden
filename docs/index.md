@@ -33,13 +33,13 @@ title: 首页
   
 ## 最近更新  
   
+- [ChangeLog](./about/ChangeLog.md)  
+- [Roadmap](./about/Roadmap.md)  
+- [Linux](./tech/Linux.md)  
 - [打印全部的 DataFrame 行和列](./notes/%E6%89%93%E5%8D%B0%E5%85%A8%E9%83%A8%E7%9A%84%20DataFrame%20%E8%A1%8C%E5%92%8C%E5%88%97.md)  
 - [MTPhotos - 好用的照片管理系统](./apps/MTPhotos%20-%20%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.md)  
 - [删除 Github 仓库全部的 commit 记录](./notes/%E5%88%A0%E9%99%A4%20Github%20%E4%BB%93%E5%BA%93%E5%85%A8%E9%83%A8%E7%9A%84%20commit%20%E8%AE%B0%E5%BD%95.md)  
 - [搜集一些MkDocs站点](./notes/%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9BMkDocs%E7%AB%99%E7%82%B9.md)  
 - [Auto Link Title](./obsidian/plugins/Auto%20Link%20Title.md)  
-- [BRAT](./obsidian/plugins/BRAT.md)  
 - [File Explorer Note Count](./obsidian/plugins/File%20Explorer%20Note%20Count.md)  
-- [frp - 群晖Nas内网穿透应用](./apps/frp%20-%20%E7%BE%A4%E6%99%96Nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8.md)  
-- [装机必备](./apps/%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87.md)  
-- [1Panel](./apps/1Panel.md)  
+- [BRAT](./obsidian/plugins/BRAT.md)  
