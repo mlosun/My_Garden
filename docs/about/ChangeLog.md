@@ -7,9 +7,10 @@ title: 站点日志
   
 > 这里记录本站的站点日志。  
   
-- 2025-05-03  
+- 2025-05-04  
 	- 启用 [git-revision-date-localized](https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/) 插件，增加文档创建和更新时间戳  
 	- 新增 [更新计划](./Roadmap.md) 和 [站点日志](ChangeLog.md) 页面  
+	- 新增 [仓鼠周志](../weekly/index.md) 栏目  
   
 - 2025-04-06  
 	- 使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 重建站点  
