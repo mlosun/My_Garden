@@ -108,3 +108,5 @@ nav:
     - apps/index.md
   - 笔记:
     - notes/index.md
+  - 仓鼠周志:
+    - weekly/index.md
