@@ -64,13 +64,17 @@ theme:
 
 # 插件设置
 plugins:
-  - search   # 启用搜索插件
-  - git-revision-date-localized:
-      type: iso_date #时间类型
-      timezone: Asia/Shanghai #时区
-      locale: zh_CN #首选语言
-      enable_creation_date: true #是否启用创建时间
-      enabled: true #是否启用
+  - search                     # 启用搜索插件
+  - document-dates:            # 文档日期插件
+      type: date               # 日期类型： date | datetime | timeago，默认 date
+      locale: zh               # 本地化语言： zh zh_tw en es fr de ar ja ko ru ，默认：en
+      date_format: '%Y-%m-%d'  # 日期格式
+      time_format: '%H:%M:%S'  # 时间格式（仅在 type=datetime 时有效）
+      position: bottom         # 显示位置：top（标题后） | bottom（文档末尾），默认 bottom
+      # exclude:                 # 排除的文件模式列表
+      #   - temp.md              # 排除特定文件
+      #   - private/*            # 排除 private 目录下的所有文件，包括子目录
+      #   - drafts/*.md          # 排除当前目录 drafts 下的所有 markdown 文件，不包括子目录
 
 # 扩展设置
 markdown_extensions:
