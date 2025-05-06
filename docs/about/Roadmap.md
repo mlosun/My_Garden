@@ -1,6 +1,6 @@
 ---
 created: 2025-05-03
-updated: 2025-05-03
+updated: 2025-05-06
 share: true
 title: 更新计划
 ---
@@ -15,6 +15,6 @@ title: 更新计划
 	- [ ] 我学习 Docker 的基础知识点总结  
 	- [ ] 我学习 Linux 的基础知识点总结  
 	- [ ] 我使用的自部署应用介绍  
-	- [ ] 我使用的 Chrome 扩展清单  
+	- [x] 我使用的 Chrome 扩展清单 ✅ 2025-05-06 [Chrome扩展清单](../apps/Chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95.md)  
 	- [ ] 我使用的 MacOS 应用清单  
 	- [ ] 我使用的 Windows 应用清单
