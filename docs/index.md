@@ -41,5 +41,5 @@ title: 首页
 - [MTPhotos - 好用的照片管理系统](./apps/MTPhotos%20-%20%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.md)  
 - [删除 Github 仓库全部的 commit 记录](./notes/%E5%88%A0%E9%99%A4%20Github%20%E4%BB%93%E5%BA%93%E5%85%A8%E9%83%A8%E7%9A%84%20commit%20%E8%AE%B0%E5%BD%95.md)  
 - [搜集一些MkDocs站点](./notes/%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9BMkDocs%E7%AB%99%E7%82%B9.md)  
+- [Auto Link Title](./obsidian/plugins/Auto%20Link%20Title.md)  
 - [BRAT](./obsidian/plugins/BRAT.md)  
-- [File Explorer Note Count](./obsidian/plugins/File%20Explorer%20Note%20Count.md)  
