@@ -9,6 +9,7 @@ title: 技术
   
 ## 最近更新  
   
+- [MySQL](./MySQL.md)  
 - [Git](./Git.md)  
 - [Linux](./Linux.md)  
 - [Docker](./Docker.md)  
