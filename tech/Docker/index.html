@@ -1137,10 +1137,28 @@
 </ul>
 <h2 id="_4">重启策略</h2>
 <ul>
-<li><code>restart: no</code> 容器不会自动重启，适用于不需要自动重启的容器，例如一次性任务或调试环境。（未指定时默认）  </li>
-<li><code>restart: always</code> 无论容器退出状态如何，都会自动重启，适用于需要持续运行的服务，如 Web 服务器、数据库服务等。  </li>
-<li><code>restart: on-failure</code> 仅在容器以非零状态退出时自动重启，适用于那些在正常运行时会以零状态退出，但在遇到错误时会以非零状态退出的容器。可选参数：指定最大重启次数 <code>restart: on-failure:5</code>  </li>
-<li><code>restart: unless-stopped</code> 容器会自动重启，除非它被手动停止或 Docker 本身被停止，适用于需要持续运行的服务，但希望在手动停止后不会自动重启。  </li>
+<li><code>restart: no</code>   <ul>
+<li>容器不会自动重启。  </li>
+<li>适用于不需要自动重启的容器，例如一次性任务或调试环境。  </li>
+<li>是未指定时的默认策略。  </li>
+</ul>
+</li>
+<li><code>restart: always</code>   <ul>
+<li>无论容器退出状态如何，都会自动重启。  </li>
+<li>适用于需要持续运行的服务，如 Web 服务器、数据库服务等。  </li>
+</ul>
+</li>
+<li><code>restart: on-failure</code>   <ul>
+<li>仅在容器以非零状态退出时自动重启。  </li>
+<li>适用于那些在正常运行时会以零状态退出，但在遇到错误时会以非零状态退出的容器。  </li>
+<li>可选参数：指定最大重启次数 <code>restart: on-failure:5</code>  </li>
+</ul>
+</li>
+<li><code>restart: unless-stopped</code>   <ul>
+<li>容器会自动重启，除非它被手动停止或 Docker 本身被停止。  </li>
+<li>适用于需要持续运行的服务，但希望在手动停止后不会自动重启。  </li>
+</ul>
+</li>
 <li>
 <p>不同策略之间区别：  </p>
 <table>
