@@ -2,6 +2,7 @@
 created: 2025-05-07
 updated: 2025-05-07
 share: true
+title: Git 学习笔记
 ---
   
 ## Git 的安装与卸载  
