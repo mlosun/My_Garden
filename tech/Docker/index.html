@@ -786,6 +786,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      重启策略
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1062,6 +1071,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      重启策略
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1115,9 +1133,60 @@
 <h2 id="_3">配置文件</h2>
 <ul>
 <li><code>Dockerfile</code> 定义如何构建一个镜像 <a href="https://www.runoob.com/docker/docker-dockerfile.html">Docker Dockerfile | 菜鸟教程</a>  </li>
-<li><code>docker-compose.yml</code> 定义和管理一个或多个容器 <a href="https://www.runoob.com/docker/docker-compose.html">Docker Compose | 菜鸟教程</a></li>
+<li><code>docker-compose.yml</code> 定义和管理一个或多个容器 <a href="https://www.runoob.com/docker/docker-compose.html">Docker Compose | 菜鸟教程</a>  </li>
 </ul>
-<div class='document-dates-plugin-wrapper'><div class='document-dates-plugin'><span title='创建时间: 2024-12-01'><span class='material-icons'>add_circle</span>2024-12-01</span><span title='最后更新: 2024-12-10'><span class='material-icons'>update</span>2024-12-10</span></div></div>
+<h2 id="_4">重启策略</h2>
+<ul>
+<li><code>restart: no</code> 容器不会自动重启，适用于不需要自动重启的容器，例如一次性任务或调试环境。（未指定时默认）  </li>
+<li><code>restart: always</code> 无论容器退出状态如何，都会自动重启，适用于需要持续运行的服务，如 Web 服务器、数据库服务等。  </li>
+<li><code>restart: on-failure</code> 仅在容器以非零状态退出时自动重启，适用于那些在正常运行时会以零状态退出，但在遇到错误时会以非零状态退出的容器。可选参数：指定最大重启次数 <code>restart: on-failure:5</code>  </li>
+<li><code>restart: unless-stopped</code> 容器会自动重启，除非它被手动停止或 Docker 本身被停止，适用于需要持续运行的服务，但希望在手动停止后不会自动重启。  </li>
+<li>
+<p>不同策略之间区别：  </p>
+<table>
+<thead>
+<tr>
+<th>情况</th>
+<th>no</th>
+<th>always</th>
+<th>on-failure</th>
+<th>unless-stopped</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>容器正常退出 (0 状态)</td>
+<td>不重启</td>
+<td>重启</td>
+<td>不重启</td>
+<td>重启</td>
+</tr>
+<tr>
+<td>容器非正常退出 (非 0 状态)</td>
+<td>不重启</td>
+<td>重启</td>
+<td>重启</td>
+<td>重启</td>
+</tr>
+<tr>
+<td>手动停止 (<code>docker stop</code>)</td>
+<td>不重启</td>
+<td>不重启</td>
+<td>不重启</td>
+<td>不重启</td>
+</tr>
+<tr>
+<td>Docker 服务重启 (如系统重启)</td>
+<td>不重启</td>
+<td>重启</td>
+<td>不重启</td>
+<td>不重启</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<div class='document-dates-plugin-wrapper'><div class='document-dates-plugin'><span title='创建时间: 2024-12-01'><span class='material-icons'>add_circle</span>2024-12-01</span><span title='最后更新: 2025-05-10'><span class='material-icons'>update</span>2025-05-10</span></div></div>
 
 
 
