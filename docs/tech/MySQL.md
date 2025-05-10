@@ -2,7 +2,7 @@
 created: 2025-05-09
 updated: 2025-05-09
 share: true
-title: MySQL
+title: MySQL 学习笔记
 ---
   
 ## MySQL 常用的 SQL 语句  
