@@ -2,7 +2,7 @@
 created: 2024-12-01
 updated: 2025-04-22
 share: true
-title: Linux
+title: Linux 学习笔记
 ---
   
 ## 常用命令  
