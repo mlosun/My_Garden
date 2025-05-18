@@ -33,6 +33,7 @@ title: 首页
   
 ## 最近更新  
   
+- [仓鼠周志 第02期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC02%E6%9C%9F.md)  
 - [Docker](./tech/Docker.md)  
 - [MySQL](./tech/MySQL.md)  
 - [Git](./tech/Git.md)  
@@ -42,4 +43,3 @@ title: 首页
 - [仓鼠周志 第01期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC01%E6%9C%9F.md)  
 - [Linux](./tech/Linux.md)  
 - [打印全部的 DataFrame 行和列](./notes/%E6%89%93%E5%8D%B0%E5%85%A8%E9%83%A8%E7%9A%84%20DataFrame%20%E8%A1%8C%E5%92%8C%E5%88%97.md)  
-- [搜集一些MkDocs站点](./notes/%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9BMkDocs%E7%AB%99%E7%82%B9.md)  
