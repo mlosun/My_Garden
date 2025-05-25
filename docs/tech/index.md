@@ -9,6 +9,7 @@ title: 技术
   
 ## 最近更新  
   
+- [Flask框架学习笔记](./Flask%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
 - [Docker](./Docker.md)  
 - [MySQL](./MySQL.md)  
 - [Git](./Git.md)  
