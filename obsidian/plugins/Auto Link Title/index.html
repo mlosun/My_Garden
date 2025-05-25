@@ -44,7 +44,19 @@
     
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
-      <link rel="stylesheet" href="../../../assets/document_dates.css">
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/scale.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/light.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/material.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/tippy.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/backdrop.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/tippy/shift-away.css">
+    
+      <link rel="stylesheet" href="../../../assets/document_dates/document-dates.config.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1027,7 +1039,7 @@
 <li>Ctrl/cmd + V 粘贴链接时，将自动获取网页标题  </li>
 <li>Ctrl/cmd + Shift +V 粘贴链接时，将禁用该功能</li>
 </ul>
-<div class='document-dates-plugin-wrapper document-dates-bottom'><div class='document-dates-plugin'><span title='创建时间: 2025-04-06'><span class='material-icons'>add_circle</span>2025-04-06</span><span title='最后更新: 2025-04-06'><span class='material-icons'>update</span>2025-04-06</span></div></div>
+<div class='document-dates-plugin-wrapper document-dates-bottom'><div class='document-dates-plugin'><span data-tippy-content='创建时间: 2025-04-06'><span class='material-icons' data-icon='doc_created'></span>2025-04-06</span><span data-tippy-content='最后更新: 2025-04-06'><span class='material-icons' data-icon='doc_modified'></span>2025-04-06</span></div></div>
 
 
 
@@ -1110,6 +1122,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../../assets/document_dates/tippy/popper.min.js"></script>
+      
+        <script src="../../../assets/document_dates/tippy/tippy.umd.min.js"></script>
+      
+        <script src="../../../assets/document_dates/document-dates.config.js"></script>
       
     
   </body>
