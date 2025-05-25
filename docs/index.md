@@ -33,6 +33,8 @@ title: 首页
   
 ## 最近更新  
   
+- [HTTP请求：GET和POST对比](./notes/HTTP%E8%AF%B7%E6%B1%82%EF%BC%9AGET%E5%92%8CPOST%E5%AF%B9%E6%AF%94.md)  
+- [Flask框架学习笔记](./tech/Flask%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
 - [仓鼠周志 第02期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC02%E6%9C%9F.md)  
 - [Docker](./tech/Docker.md)  
 - [MySQL](./tech/MySQL.md)  
@@ -41,5 +43,3 @@ title: 首页
 - [Chrome扩展清单](./apps/Chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95.md)  
 - [ChangeLog](./about/ChangeLog.md)  
 - [仓鼠周志 第01期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC01%E6%9C%9F.md)  
-- [Linux](./tech/Linux.md)  
-- [打印全部的 DataFrame 行和列](./notes/%E6%89%93%E5%8D%B0%E5%85%A8%E9%83%A8%E7%9A%84%20DataFrame%20%E8%A1%8C%E5%92%8C%E5%88%97.md)  
