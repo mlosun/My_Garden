@@ -33,6 +33,7 @@ title: 首页
   
 ## 最近更新  
   
+- [Obsidian插件清单](./obsidian/Obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95.md)  
 - [仓鼠周志 第03期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC03%E6%9C%9F.md)  
 - [解决1Panel升级NocoDB后无法启动](./notes/%E8%A7%A3%E5%86%B31Panel%E5%8D%87%E7%BA%A7NocoDB%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8.md)  
 - [Flask框架学习笔记](./tech/Flask%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
@@ -42,4 +43,3 @@ title: 首页
 - [MySQL](./tech/MySQL.md)  
 - [Git](./tech/Git.md)  
 - [Roadmap](./about/Roadmap.md)  
-- [Chrome扩展清单](./apps/Chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95.md)  
