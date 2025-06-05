@@ -11,9 +11,9 @@ title: Obsidian
   
 | 标题                                                                               | 简介         | 状态   | 最后更新       |  
 | -------------------------------------------------------------------------------- | ---------- | ---- | ---------- |  
-| [File Explorer Note Count](./plugins/File%20Explorer%20Note%20Count.md) | 文件列表显示文件数量 | ✅ 在用 | 2025-04-06 |  
 | [Auto Link Title](./plugins/Auto%20Link%20Title.md)                   | 自动获取链接标题   | ✅ 在用 | 2025-04-06 |  
 | [BRAT](./plugins/BRAT.md)                                         | 可安装未上架的插件  | ✅ 在用 | 2025-04-06 |  
+| [File Explorer Note Count](./plugins/File%20Explorer%20Note%20Count.md) | 文件列表显示文件数量 | ✅ 在用 | 2025-04-06 |  
   
   
 ## 片段列表  
@@ -24,7 +24,8 @@ title: Obsidian
   
 ## 最近更新  
   
-- [File Explorer Note Count](./plugins/File%20Explorer%20Note%20Count.md)  
+- [Obsidian插件清单](./Obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95.md)  
 - [Auto Link Title](./plugins/Auto%20Link%20Title.md)  
 - [BRAT](./plugins/BRAT.md)  
+- [File Explorer Note Count](./plugins/File%20Explorer%20Note%20Count.md)  
   
