@@ -18,5 +18,5 @@ title: 笔记
 - [什么是数字花园？](./%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%EF%BC%9F.md)  
 - [搜集一些数字花园站点](./%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%E7%AB%99%E7%82%B9.md)  
 - [Git 的常用命令](./Git%20%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)  
-- [Python库：pipreqs 生成项目依赖文件](./Python%E5%BA%93%EF%BC%9Apipreqs%20%E7%94%9F%E6%88%90%E9%A1%B9%E7%9B%AE%E4%BE%9D%E8%B5%96%E6%96%87%E4%BB%B6.md)  
+- [MacOS 终端技巧合集](./MacOS%20%E7%BB%88%E7%AB%AF%E6%8A%80%E5%B7%A7%E5%90%88%E9%9B%86.md)  
   
