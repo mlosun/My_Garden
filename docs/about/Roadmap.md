@@ -10,7 +10,7 @@ title: 更新计划
   
 - 2025-05-03 计划（计划 6.30 更新完）  
 	- [x] 我使用的 Obsidian plugins 插件列表 ✅ 2025-06-05 [Obsidian插件清单](../obsidian/Obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95.md)  
-	- [x] 我使用的 Obsidian snippets 片段列表 ✅ 2025-06-09 Obsidian样式清单  
+	- [x] 我使用的 Obsidian snippets 片段列表 ✅ 2025-06-09 [Obsidian样式清单](../obsidian/Obsidian%E6%A0%B7%E5%BC%8F%E6%B8%85%E5%8D%95.md)  
 	- [ ] 我学习 Python 的基础知识点总结  
 	- [ ] 我学习 Docker 的基础知识点总结  
 	- [ ] 我学习 Linux 的基础知识点总结  
