@@ -1,6 +1,6 @@
 ---
 created: 2024-12-01
-updated: 2025-06-05
+updated: 2025-06-09
 share: true
 title: Obsidian插件清单
 ---
@@ -82,3 +82,4 @@ title: Obsidian插件清单
 | Tasks                    | 任务管理                                               | ✅   |                          | [Github](https://github.com/obsidian-tasks-group/obsidian-tasks)                                |  
 | Templater                | 模板增强                                               | ✅   |                          | [Github](https://github.com/SilentVoid13/Templater)                                             |  
 | VSCode Editor            | 在 Obsidian 里编辑代码                                   | ✅   |                          | [Github](https://github.com/sunxvming/obsidian-vscode-editor)                                   |  
+| Multi Properties         | 批量增删笔记属性                                           | ✅   |                          | [Github](https://github.com/technohiker/obsidian-multi-properties)                              |  
