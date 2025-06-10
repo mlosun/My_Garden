@@ -40,6 +40,6 @@ title: 首页
 - [MySnippets 多栏布局](./obsidian/snippets/MySnippets%20%E5%A4%9A%E6%A0%8F%E5%B8%83%E5%B1%80.md)  
 - [代码块样式优化](./obsidian/snippets/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96.md)  
 - [优化文件列表显示](./obsidian/snippets/%E4%BC%98%E5%8C%96%E6%96%87%E4%BB%B6%E5%88%97%E8%A1%A8%E6%98%BE%E7%A4%BA.md)  
-- [给光标所在行加下划线](./obsidian/snippets/%E7%BB%99%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E8%A1%8C%E5%8A%A0%E4%B8%8B%E5%88%92%E7%BA%BF.md)  
 - [渐变色分割线](./obsidian/snippets/%E6%B8%90%E5%8F%98%E8%89%B2%E5%88%86%E5%89%B2%E7%BA%BF.md)  
-- [给网址前加图标](./obsidian/snippets/%E7%BB%99%E7%BD%91%E5%9D%80%E5%89%8D%E5%8A%A0%E5%9B%BE%E6%A0%87.md)  
+- [给光标所在行加下划线](./obsidian/snippets/%E7%BB%99%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E8%A1%8C%E5%8A%A0%E4%B8%8B%E5%88%92%E7%BA%BF.md)  
+- [给激活窗口加边框](./obsidian/snippets/%E7%BB%99%E6%BF%80%E6%B4%BB%E7%AA%97%E5%8F%A3%E5%8A%A0%E8%BE%B9%E6%A1%86.md)  
