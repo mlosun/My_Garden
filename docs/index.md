@@ -33,9 +33,9 @@ title: 首页
   
 ## 最近更新  
   
-- [Obsidian样式清单](./obsidian/Obsidian%E6%A0%B7%E5%BC%8F%E6%B8%85%E5%8D%95.md)  
-- [隐藏界面多余元素](./obsidian/snippets/%E9%9A%90%E8%97%8F%E7%95%8C%E9%9D%A2%E5%A4%9A%E4%BD%99%E5%85%83%E7%B4%A0.md)  
 - [Obsidian插件清单](./obsidian/Obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95.md)  
+- [隐藏界面多余元素](./obsidian/snippets/%E9%9A%90%E8%97%8F%E7%95%8C%E9%9D%A2%E5%A4%9A%E4%BD%99%E5%85%83%E7%B4%A0.md)  
+- [Obsidian样式清单](./obsidian/Obsidian%E6%A0%B7%E5%BC%8F%E6%B8%85%E5%8D%95.md)  
 - [Callouts 经典样式](./obsidian/snippets/Callouts%20%E7%BB%8F%E5%85%B8%E6%A0%B7%E5%BC%8F.md)  
 - [MySnippets 多栏布局](./obsidian/snippets/MySnippets%20%E5%A4%9A%E6%A0%8F%E5%B8%83%E5%B1%80.md)  
 - [代码块样式优化](./obsidian/snippets/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96.md)  

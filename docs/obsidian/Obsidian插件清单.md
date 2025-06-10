@@ -1,6 +1,6 @@
 ---
 created: 2024-12-01
-updated: 2025-06-09
+updated: 2025-06-10
 share: true
 title: Obsidian插件清单
 ---
@@ -83,3 +83,4 @@ title: Obsidian插件清单
 | Templater                | 模板增强                                               | ✅   |                          | [Github](https://github.com/SilentVoid13/Templater)                                             |  
 | VSCode Editor            | 在 Obsidian 里编辑代码                                   | ✅   |                          | [Github](https://github.com/sunxvming/obsidian-vscode-editor)                                   |  
 | Multi Properties         | 批量增删笔记属性                                           | ✅   |                          | [Github](https://github.com/technohiker/obsidian-multi-properties)                              |  
+| Export Image Plugin      | 导出笔记为图片，便于分享                                       | ✅   |                          | [Github](https://github.com/zhouhua/obsidian-export-image)                                      |  
