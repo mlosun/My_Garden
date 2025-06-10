@@ -4,8 +4,6 @@ updated: 2025-06-10
 share: true
 ---
   
-[GitHub - nothingislost/obsidian-hover-editor: Transform the Page Preview hover into a working editor instance](https://github.com/nothingislost/obsidian-hover-editor)  
-  
 > 目前下面的清单都是当前正在使用的，包括一些有计划移除和还没有用起来的样式。  
 >   
 > 后续会阶段性更新本页面。  
