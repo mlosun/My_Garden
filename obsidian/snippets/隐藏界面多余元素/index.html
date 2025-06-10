@@ -12,7 +12,7 @@
         <meta name="author" content="mlosun">
       
       
-        <link rel="canonical" href="https://mlosun.com/obsidian/snippets/%E6%82%AC%E6%B5%AE%E7%AC%94%E8%AE%B0%E9%9A%90%E8%97%8F%E5%A4%9A%E4%BD%99%E5%86%85%E5%AE%B9/">
+        <link rel="canonical" href="https://mlosun.com/obsidian/snippets/%E9%9A%90%E8%97%8F%E7%95%8C%E9%9D%A2%E5%A4%9A%E4%BD%99%E5%85%83%E7%B4%A0/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>悬浮笔记隐藏多余内容 - 数字花园</title>
+        <title>隐藏界面多余元素 - 数字花园</title>
       
     
     
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              悬浮笔记隐藏多余内容
+              隐藏界面多余元素
             
           </span>
         </div>
@@ -978,7 +978,7 @@
 
 
   
-    <a href="https://github.com/mlosun/My_Garden/edit/main/docs/obsidian/snippets/悬浮笔记隐藏多余内容.md" title="编辑此页" class="md-content__button md-icon">
+    <a href="https://github.com/mlosun/My_Garden/edit/main/docs/obsidian/snippets/隐藏界面多余元素.md" title="编辑此页" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
     </a>
@@ -987,28 +987,44 @@
     
       
     
-    <a href="https://github.com/mlosun/My_Garden/raw/main/docs/obsidian/snippets/悬浮笔记隐藏多余内容.md" title="查看本页的源代码" class="md-content__button md-icon">
+    <a href="https://github.com/mlosun/My_Garden/raw/main/docs/obsidian/snippets/隐藏界面多余元素.md" title="查看本页的源代码" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
     </a>
   
 
 
-  <h1>悬浮笔记隐藏多余内容</h1>
+  <h1>隐藏界面多余元素</h1>
 
-<pre><code class="language-css">/* 隐藏属性面板 */  
+<pre><code class="language-css">/* === 隐藏悬浮笔记相关元素（基于 Hover Editor 插件） === */  
+/* 隐藏属性面板 */  
 .popover.hover-editor .markdown-preview-view.show-properties .metadata-container {  
     display: none;  
 }  
-
 
 /* 隐藏 Note Toolbar 插件的置顶工具栏 */  
 .popover.hover-editor .callout[data-callout=&quot;note-toolbar&quot;] {  
     display: none;  
 }  
 
+/* === 隐藏侧边栏笔记相关元素 === */  
+/* 隐藏属性面板 */  
+.workspace-split .markdown-preview-view.show-properties .metadata-container {  
+    display: none;  
+}  
+
+/* 隐藏 Note Toolbar 插件的置顶工具栏 */  
+.workspace-split .callout[data-callout=&quot;note-toolbar&quot;] {  
+    display: none;  
+}  
+
+/* 隐藏笔记文件标题 */  
+.workspace-split .mod-header {  
+    display: none;  
+}  
+
 </code></pre>
-<div class='document-dates-plugin-wrapper document-dates-bottom'><div class='document-dates-plugin'><span data-tippy-content='创建时间: 2025-06-09'><span class='material-icons' data-icon='doc_created'></span>2025-06-09</span><span data-tippy-content='最后更新: 2025-06-09'><span class='material-icons' data-icon='doc_modified'></span>2025-06-09</span><span data-tippy-content='作者: <a href="mailto:165387666@qq.com">mlosun</a>'><span class='material-icons' data-icon='doc_author'></span>mlosun</span></div></div>
+<div class='document-dates-plugin-wrapper document-dates-bottom'><div class='document-dates-plugin'><span data-tippy-content='创建时间: 2025-06-09'><span class='material-icons' data-icon='doc_created'></span>2025-06-09</span><span data-tippy-content='最后更新: 2025-06-10'><span class='material-icons' data-icon='doc_modified'></span>2025-06-10</span><span data-tippy-content='作者: <a href="mailto:165387666@qq.com">mlosun</a>'><span class='material-icons' data-icon='doc_author'></span>mlosun</span></div></div>
 
 
 
