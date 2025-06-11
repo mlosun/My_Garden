@@ -14,6 +14,7 @@ share: true
 ## 问题检查  
   
 根据搜索和 AI 的反馈，做了 N 多检查和尝试：  
+  
 - `git config user.name` 无问题  
 - `git config user.email` 无问题  
 - `git add .` 后，`git status` 检查已正常暂存代码  
@@ -29,6 +30,7 @@ share: true
 ## 问题解决  
   
 最后在反复询问各种 AI 后，终于在命令 `git commit -m "提交代码" --no-verify` 下提交成功了。并且经过重新复现问题：  
+  
 - `git commit -m "提交代码"` 仍然无法提交  
 - `git commit -m "提交代码" --no-verify` 可以正常提交  
   
@@ -36,7 +38,7 @@ share: true
   
 但是查询仓库的 `.git/hooks/pre-commit` 也并不存在。  
   
-思考了以下，使用 `git config list --global` 查询全局的配置，果然发现了一条:  
+思考了一下，使用 `git config list --global` 查询全局的配置，果然发现了一条:  
   
 ```  
 core.hookspath=C:\Users\Administrator\AppData\Roaming\mkdocs-document-dates\hooks  
@@ -52,8 +54,8 @@ core.hookspath=C:\Users\Administrator\AppData\Roaming\mkdocs-document-dates\hook
   
 > 采用了 Git Hooks 机制来自动触发缓存的存储（在每次执行 git commit 时），缓存文件也会随之自动提交。  
   
-看来应该是这里出了一些问题。看来这个也是插件的运行机制，但是为什么会出现在全局设置里就不得而知。  
+看来应该是这里出了一些问题。这个应该也是插件的运行机制，但是为什么会出现在全局设置里就不得而知。  
   
 在我的使用场景下，MkDocs 推送到 Github 上去使用 Action 部署站点，只是很偶尔才会在本地运行检查，所以影响到不大。  
   
-已通过 Issues 反馈给插件作者，有后续将更新。
+已通过 [Issues](https://github.com/jaywhj/mkdocs-document-dates/issues/4) 反馈给插件作者，有后续将更新。
