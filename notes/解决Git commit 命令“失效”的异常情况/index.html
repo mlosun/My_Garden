@@ -44,17 +44,17 @@
     
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/scale.css">
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/light.css">
     
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/material.css">
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/tippy/tippy.css">
     
-      <link rel="stylesheet" href="../../assets/document_dates/tippy/backdrop.css">
-    
       <link rel="stylesheet" href="../../assets/document_dates/tippy/shift-away.css">
+    
+      <link rel="stylesheet" href="../../assets/document_dates/tippy/scale.css">
     
       <link rel="stylesheet" href="../../assets/document_dates/core/core.css">
     
@@ -1054,24 +1054,28 @@
 <li>使用终端手动执行 <code>git commit -m "提交代码"</code> 时，并无任何报错提示，但实质上代码并未提交（暂存时无异常）  </li>
 </ul>
 <h2 id="_2">问题检查</h2>
-<p>根据搜索和 AI 的反馈，做了 N 多检查和尝试：<br />
-- <code>git config user.name</code> 无问题<br />
-- <code>git config user.email</code> 无问题<br />
-- <code>git add .</code> 后，<code>git status</code> 检查已正常暂存代码<br />
-- <code>git commit -m "提交代码"</code> 后，<code>git status</code> 检查 commit 动作实际并未执行<br />
-- <code>git config list</code> 无异常<br />
-- 尝试本机其他仓库的提交，也出现类似情况<br />
-- 删除本地 <code>.git</code> 目录，重新初始化仓库，未解决<br />
-- 卸载本机 Git，重新下载安装 Git，未解决<br />
-- 按照 AI 反馈一步步执行各种检查、尝试的命令，均未解决  </p>
+<p>根据搜索和 AI 的反馈，做了 N 多检查和尝试：  </p>
+<ul>
+<li><code>git config user.name</code> 无问题  </li>
+<li><code>git config user.email</code> 无问题  </li>
+<li><code>git add .</code> 后，<code>git status</code> 检查已正常暂存代码  </li>
+<li><code>git commit -m "提交代码"</code> 后，<code>git status</code> 检查 commit 动作实际并未执行  </li>
+<li><code>git config list</code> 无异常  </li>
+<li>尝试本机其他仓库的提交，也出现类似情况  </li>
+<li>删除本地 <code>.git</code> 目录，重新初始化仓库，未解决  </li>
+<li>卸载本机 Git，重新下载安装 Git，未解决  </li>
+<li>按照 AI 反馈一步步执行各种检查、尝试的命令，均未解决  </li>
+</ul>
 <p>到这里基本上这里已经耗尽了我对 Git 的仅有认知。  </p>
 <h2 id="_3">问题解决</h2>
-<p>最后在反复询问各种 AI 后，终于在命令 <code>git commit -m "提交代码" --no-verify</code> 下提交成功了。并且经过重新复现问题：<br />
-- <code>git commit -m "提交代码"</code> 仍然无法提交<br />
-- <code>git commit -m "提交代码" --no-verify</code> 可以正常提交  </p>
+<p>最后在反复询问各种 AI 后，终于在命令 <code>git commit -m "提交代码" --no-verify</code> 下提交成功了。并且经过重新复现问题：  </p>
+<ul>
+<li><code>git commit -m "提交代码"</code> 仍然无法提交  </li>
+<li><code>git commit -m "提交代码" --no-verify</code> 可以正常提交  </li>
+</ul>
 <p>经过向 AI 询问，<code>--no-verify</code> 参数的作用是跳过 Git 钩子（pre-commit 钩子），然后遵循 AI 反馈删除掉 <code>.git/hooks/pre-commit</code> 这个文件即可。  </p>
 <p>但是查询仓库的 <code>.git/hooks/pre-commit</code> 也并不存在。  </p>
-<p>思考了以下，使用 <code>git config list --global</code> 查询全局的配置，果然发现了一条:  </p>
+<p>思考了一下，使用 <code>git config list --global</code> 查询全局的配置，果然发现了一条:  </p>
 <pre><code>core.hookspath=C:\Users\Administrator\AppData\Roaming\mkdocs-document-dates\hooks  
 </code></pre>
 <p>进入其中后果然发现了 <code>pre-commit</code> 文件  </p>
@@ -1081,9 +1085,9 @@
 <blockquote>
 <p>采用了 Git Hooks 机制来自动触发缓存的存储（在每次执行 git commit 时），缓存文件也会随之自动提交。  </p>
 </blockquote>
-<p>看来应该是这里出了一些问题。看来这个也是插件的运行机制，但是为什么会出现在全局设置里就不得而知。  </p>
+<p>看来应该是这里出了一些问题。这个应该也是插件的运行机制，但是为什么会出现在全局设置里就不得而知。  </p>
 <p>在我的使用场景下，MkDocs 推送到 Github 上去使用 Action 部署站点，只是很偶尔才会在本地运行检查，所以影响到不大。  </p>
-<p>已通过 Issues 反馈给插件作者，有后续将更新。</p>
+<p>已通过 <a href="https://github.com/jaywhj/mkdocs-document-dates/issues/4">Issues</a> 反馈给插件作者，有后续将更新。</p>
 <div class='document-dates-plugin-wrapper document-dates-bottom'><div class='document-dates-plugin'><span data-tippy-content='创建时间: 2025-06-11'><span class='material-icons' data-icon='doc_created'></span>2025-06-11</span><span data-tippy-content='最后更新: 2025-06-11'><span class='material-icons' data-icon='doc_modified'></span>2025-06-11</span><span data-tippy-content='作者: <a href="mailto:165387666@qq.com">mlosun</a>'><span class='material-icons' data-icon='doc_author'></span>mlosun</span></div></div>
 
 
