@@ -9,6 +9,7 @@ title: 笔记
   
 ## 最近更新  
   
+- [解决Git commit 命令“失效”的异常情况](./%E8%A7%A3%E5%86%B3Git%20commit%20%E5%91%BD%E4%BB%A4%E2%80%9C%E5%A4%B1%E6%95%88%E2%80%9D%E7%9A%84%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B5.md)  
 - [解决1Panel升级NocoDB后无法启动](./%E8%A7%A3%E5%86%B31Panel%E5%8D%87%E7%BA%A7NocoDB%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8.md)  
 - [HTTP请求：GET和POST对比](./HTTP%E8%AF%B7%E6%B1%82%EF%BC%9AGET%E5%92%8CPOST%E5%AF%B9%E6%AF%94.md)  
 - [打印全部的 DataFrame 行和列](./%E6%89%93%E5%8D%B0%E5%85%A8%E9%83%A8%E7%9A%84%20DataFrame%20%E8%A1%8C%E5%92%8C%E5%88%97.md)  
@@ -18,5 +19,4 @@ title: 笔记
 - [什么是数字花园？](./%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%EF%BC%9F.md)  
 - [搜集一些数字花园站点](./%E6%90%9C%E9%9B%86%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%E7%AB%99%E7%82%B9.md)  
 - [Git 的常用命令](./Git%20%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)  
-- [MacOS 终端技巧合集](./MacOS%20%E7%BB%88%E7%AB%AF%E6%8A%80%E5%B7%A7%E5%90%88%E9%9B%86.md)  
   
