@@ -33,6 +33,7 @@ title: 首页
   
 ## 最近更新  
   
+- [仓鼠周志 第05期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC05%E6%9C%9F.md)  
 - [Obsidian样式清单](./obsidian/Obsidian%E6%A0%B7%E5%BC%8F%E6%B8%85%E5%8D%95.md)  
 - [标题美化](./obsidian/snippets/%E6%A0%87%E9%A2%98%E7%BE%8E%E5%8C%96.md)  
 - [我在关注的一些产品](./notes/%E6%88%91%E5%9C%A8%E5%85%B3%E6%B3%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%A7%E5%93%81.md)  
@@ -42,4 +43,3 @@ title: 首页
 - [Obsidian插件清单](./obsidian/Obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95.md)  
 - [Callouts 经典样式](./obsidian/snippets/Callouts%20%E7%BB%8F%E5%85%B8%E6%A0%B7%E5%BC%8F.md)  
 - [MySnippets 多栏布局](./obsidian/snippets/MySnippets%20%E5%A4%9A%E6%A0%8F%E5%B8%83%E5%B1%80.md)  
-- [代码块样式优化](./obsidian/snippets/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96.md)  
