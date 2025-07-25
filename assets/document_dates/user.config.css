@@ -2,11 +2,11 @@
     including icons, fonts, colors, etc
     */
 /* 
-.document-dates-plugin {
+.md-main .document-dates-plugin {
     color: rgba(109, 157, 204, 0.7);
     font-size: 0.75rem;
 }
-.document-dates-plugin .material-icons {
+.md-main .document-dates-plugin .material-icons {
     font-size: 0.9rem;
 } */
 
@@ -34,13 +34,12 @@
 
 
 /* 2. Plug-in wrapper styles
-    including divider, margin, padding, etc
+    including divider line, margin, padding, etc
+    for example, remove the divider line like below:
     */
 /* 
-.document-dates-plugin-wrapper.document-dates-top {
-    border-bottom: 1px solid rgba(142, 142, 142, 0.15);
-}
-.document-dates-plugin-wrapper.document-dates-bottom {
+.md-main .document-dates-plugin-wrapper.document-dates-top,
+.md-main .document-dates-plugin-wrapper.document-dates-bottom {
     border-bottom: none;
 } */
 

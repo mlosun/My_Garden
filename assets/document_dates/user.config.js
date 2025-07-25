@@ -76,10 +76,18 @@ const localeFunc = (number, index) => {
 };
 const localeStr = 'whatever';
 timeago.register(localeStr, localeFunc);
-
-if (typeof timeago !== 'undefined') {
-    document.querySelectorAll('.document-dates-plugin time').forEach(timeElement => {
-        timeElement.textContent = timeago.format(timeElement.getAttribute('datetime'), localeStr);
-    });
+function formatTimeagoElements() {
+    if (typeof timeago !== 'undefined') {
+        document.querySelectorAll('.document-dates-plugin time').forEach(timeElement => {
+            timeElement.textContent = timeago.format(timeElement.getAttribute('datetime'), localeStr);
+        });
+    }
+}
+if (typeof window.document$ !== 'undefined' && !window.document$.isStopped) {
+    // Compatible with Material for MkDocs 'navigation.instant'
+    window.document$.subscribe(formatTimeagoElements);
+} else {
+    // Fallback to standard DOMContentLoaded for other themes
+    formatTimeagoElements();
 }
 */
