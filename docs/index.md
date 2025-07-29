@@ -33,13 +33,13 @@ title: 首页
   
 ## 最近更新  
   
+- [使用 MacOS 搭建 Python 的开发环境](./apps/%E4%BD%BF%E7%94%A8%20MacOS%20%E6%90%AD%E5%BB%BA%20Python%20%E7%9A%84%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md)  
+- [Roadmap](./about/Roadmap.md)  
 - [MacOS 系统降级流程](./apps/MacOS%20%E7%B3%BB%E7%BB%9F%E9%99%8D%E7%BA%A7%E6%B5%81%E7%A8%8B.md)  
 - [我的应用清单](./apps/%E6%88%91%E7%9A%84%E5%BA%94%E7%94%A8%E6%B8%85%E5%8D%95.md)  
-- [Roadmap](./about/Roadmap.md)  
 - [仓鼠周志 第06期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC06%E6%9C%9F.md)  
 - [仓鼠周志 第05期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC05%E6%9C%9F.md)  
 - [Obsidian样式清单](./obsidian/Obsidian%E6%A0%B7%E5%BC%8F%E6%B8%85%E5%8D%95.md)  
 - [标题美化](./obsidian/snippets/%E6%A0%87%E9%A2%98%E7%BE%8E%E5%8C%96.md)  
 - [我在关注的一些产品](./notes/%E6%88%91%E5%9C%A8%E5%85%B3%E6%B3%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%A7%E5%93%81.md)  
 - [仓鼠周志 第04期](./weekly/%E4%BB%93%E9%BC%A0%E5%91%A8%E5%BF%97%20%E7%AC%AC04%E6%9C%9F.md)  
-- [隐藏界面多余元素](./obsidian/snippets/%E9%9A%90%E8%97%8F%E7%95%8C%E9%9D%A2%E5%A4%9A%E4%BD%99%E5%85%83%E7%B4%A0.md)  
