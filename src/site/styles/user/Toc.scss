@@ -1,0 +1,8 @@
+body nav.toc {
+
+    // 移除标题前的 # 符号
+    li::before {
+        content: "" !important;
+    }
+
+}

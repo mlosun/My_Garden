@@ -1,0 +1,19 @@
+{# 本脚本等待 DOM 构建完成后，根据预设的“元素选择器 + 原文本 → 替换文本”映射表，批量把页面中英文文案改写成对应中文文案。 #}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const replacements = [
+    { selector: '.graph-title', text: 'Connected Pages', replacement: '关联图谱' },
+    { selector: 'label[for="graph-depth"]', text: 'Depth', replacement: '深度' },
+    { selector: '.toc-title', text: 'On this page', replacement: '本页目录' },
+    { selector: '.backlink-title', text: 'Pages mentioning this page', replacement: '反向链接' },
+    { selector: '.no-backlinks-message', text: 'No other pages mentions this page', replacement: '暂无' },
+  ];
+
+  replacements.forEach(({ selector, text, replacement }) => {
+    const el = document.querySelector(selector);
+    if (el && el.textContent.trim() === text) {
+      el.textContent = replacement;
+    }
+  });
+});
+</script>

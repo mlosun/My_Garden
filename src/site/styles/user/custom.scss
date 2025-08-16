@@ -1,0 +1,182 @@
+// 来源：https://github.com/lmm214/edui123/blob/main/src/site/styles/user/custom-style.css
+
+body nav.filetree-sidebar {
+    position: fixed;
+    top: 85px;
+    left: 20px;
+    display: flex;
+    overflow-x: hidden;
+    width: 300px;
+    height: calc(100% - 160px);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+body nav.filetree-sidebar .search-button {
+    margin: 10px 10px 20px;
+    min-width: 160px;
+}
+
+body nav.filetree-sidebar>.folder {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-right: -10px;
+    flex: 1;
+}
+
+body nav.filetree-sidebar .notelink {
+    padding: 5px 0 5px 8px;
+    border-radius: 10px 0 0 10px;
+}
+
+body nav.filetree-sidebar .notelink a:before {
+    margin-right: 2px;
+}
+
+body nav.filetree-sidebar .notelink.active-note {
+    transform: unset;
+}
+
+body nav.filetree-sidebar .fa-sticky-note {
+    display: none !important;
+}
+
+body nav.filetree-sidebar h1:before {
+    display: block;
+    width: 100%;
+    height: 3em;
+    background-image: url(/img/logo.svg);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: " ";
+}
+
+
+
+body nav.toc ol {
+    padding-left: 10px;
+    border-left: 2px solid var(--background-secondary);
+    list-style: none;
+}
+
+body nav.toc>ol {
+    border-left: none;
+}
+
+body header {
+    margin-bottom: 1.8em;
+}
+
+body .content {
+    max-width: 780px;
+}
+
+body .cm-s-obsidian {
+    line-height: 1.8;
+}
+
+body .cm-s-obsidian .table-wrapper {
+    overflow-x: scroll;
+}
+
+body .cm-s-obsidian picture {
+    height: auto;
+    max-width: 100%;
+}
+
+body .cm-s-obsidian picture img {
+    width: 100%;
+    height: auto;
+}
+
+body .referred {
+    margin-right: -10px;
+    margin-left: -10px;
+    padding: 10px;
+    border: 1px dashed;
+    border-color: var(--text-accent);
+}
+
+body .search-button {
+    border-radius: 10px;
+}
+
+body .toc-container li:before {
+    content: "" !important;
+}
+
+body nav.navbar {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    z-index: 99999;
+    width: calc(100% - 20px);
+    height: 55px;
+    border-radius: 10px;
+    opacity: .88;
+}
+
+body nav.navbar .navbar-inner h1:before {
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1.2em;
+    background-image: url(/img/logo.svg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: " ";
+}
+
+body code[class*=language-],
+body pre[class*=language-] {
+    text-shadow: unset;
+}
+
+body .filename {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.sidebar .toc-container {
+    max-height: unset;
+}
+
+
+
+.sidebar .backlinks {
+    flex: unset;
+}
+
+.markdown-rendered table a.internal-link {
+    color: #444 !important;
+    text-decoration-line: none;
+}
+
+@media(max-width:1400px) {
+    .sidebar .toc-container {
+        max-height: 320px;
+    }
+
+    .sidebar .backlinks {
+        order: 3;
+    }
+}
+
+@media(max-width:600px) {
+    body {
+        --list-indent: 1rem;
+    }
+}
+
+@media(hover:hover) {
+
+    .external-link:hover,
+    .markdown-rendered .internal-link.is-unresolved:hover,
+    a:hover {
+        color: var(--link-color);
+    }
+}
