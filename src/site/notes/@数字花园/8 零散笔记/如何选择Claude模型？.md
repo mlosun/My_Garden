@@ -4,7 +4,8 @@
 
 ## Claude 3 模型家族
 
-![image.png|300](http://img.mlosun.com/images/2024/202404140855736.png)
+[[5-附属包/附件/021c9498c1b2fad372fe7dcd694b6007_MD5.jpg|Open: c431e61a5782962b1161ac49cd2da2c4_MD5.jpg]]
+![5-附属包/附件/021c9498c1b2fad372fe7dcd694b6007_MD5.jpg|300](/img/user/5-%E9%99%84%E5%B1%9E%E5%8C%85/%E9%99%84%E4%BB%B6/021c9498c1b2fad372fe7dcd694b6007_MD5.jpg)
 
 #### Haiku 轻量级 俳句
 - 是响应速度最快、成本最低 的模型，在大多数纯文本任务上的表现仍然相当出色，也拥有多模态能力
