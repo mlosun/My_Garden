@@ -19,7 +19,7 @@
 
 这个站点使用的是 [[@数字花园/9 Obsidian/索引\|Obsidian]] 插件 [[@数字花园/9 Obsidian/社区插件/✅ 已启用/Digital Garden\|Digital Garden]] 建立，这种站点在知识管理领域也被称之为「[[@数字花园/8 零散笔记/什么是数字花园？\|数字花园]]」，也可以在 [这里](https://blog.effie.co/%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%EF%BC%9F/) 看到更详细的解释。
 
-<p><span>截止目前，我的 Obsidian 仓库中共有 <strong>951</strong> 篇笔记，其中的 <strong>162</strong> 篇已发布到本站点。</span></p>
+<p><span>截止目前，我的 Obsidian 仓库中共有 <strong>952</strong> 篇笔记，其中的 <strong>163</strong> 篇已发布到本站点。</span></p>
 
 ## 最近更新
 
