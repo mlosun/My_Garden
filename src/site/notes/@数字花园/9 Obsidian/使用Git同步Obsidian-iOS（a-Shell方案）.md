@@ -13,9 +13,9 @@
 经过稍微尝试，决定使用第二种方案，现将过程记录在此。
 
 > [!NOTE] a-Shell 注意事项
-> 1. a-Shell
+> 1. a-Shell 的原理相当于创建了一个容器，在容器中跑了一个类 linux 来运行“精简版 git”，所以需要将外部（即 iOS 系统里的目录映射进这个容器中）
 > 2. a-Shell 的 `.ssh` 目录并不在 `~` 目录下，而是在 `~/Documents` 目录下。一般也不需要进入 `~` 目录，就在 `~/Documents` 和 `~/Documents/你的仓库` 目录下操作即可。
-> 3. a-Shell 内置了一个 lg2 的工具，可视为 git 的精简版，命令和 git 一样，将 git 替换为 lg2 即可，如：
+> 3. a-Shell 内置的“精简版 git” 叫 lg2，命令和 git 一样，将 git 替换为 lg2 即可，如：
 > 	- git clone ➡️ lg2 clone
 > 	- git pull ➡️ lg2 pull
 > 	- git add ➡️ lg2 add
