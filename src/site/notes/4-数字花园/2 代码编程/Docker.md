@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/2 代码编程/Docker/","created":"2024-12-01","updated":"2025-05-10"}
+{"dg-publish":true,"dg-path":"2 代码编程/Docker.md","permalink":"/2 代码编程/Docker/","created":"2024-12-01","updated":"2025-05-10"}
 ---
 
 

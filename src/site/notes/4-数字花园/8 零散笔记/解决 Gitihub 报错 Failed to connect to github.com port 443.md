@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/解决 Gitihub 报错 Failed to connect to github.com port 443/","created":"2024-08-20","updated":"2024-08-20"}
+{"dg-publish":true,"dg-path":"8 零散笔记/解决 Gitihub 报错 Failed to connect to github.com port 443.md","permalink":"/8 零散笔记/解决 Gitihub 报错 Failed to connect to github.com port 443/","created":"2024-08-20","updated":"2024-08-20"}
 ---
 
 

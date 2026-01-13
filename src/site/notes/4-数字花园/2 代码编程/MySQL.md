@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/2 代码编程/MySQL/","created":"2025-05-09","updated":"2025-05-09"}
+{"dg-publish":true,"dg-path":"2 代码编程/MySQL.md","permalink":"/2 代码编程/MySQL/","created":"2025-05-09","updated":"2025-05-09"}
 ---
 
 

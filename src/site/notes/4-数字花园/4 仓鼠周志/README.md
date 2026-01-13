@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/4 仓鼠周志/README/","created":"2025-05-04","updated":"2025-07-31"}
+{"dg-publish":true,"dg-path":"4 仓鼠周志/README.md","permalink":"/4 仓鼠周志/README/","created":"2025-05-04","updated":"2025-07-31"}
 ---
 
 

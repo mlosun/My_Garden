@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/如何选择Claude模型？/","created":"2024-04-14","updated":"2024-04-14"}
+{"dg-publish":true,"dg-path":"8 零散笔记/如何选择Claude模型？.md","permalink":"/8 零散笔记/如何选择Claude模型？/","created":"2024-04-14","updated":"2024-04-14"}
 ---
 
 ## Claude 3 模型家族

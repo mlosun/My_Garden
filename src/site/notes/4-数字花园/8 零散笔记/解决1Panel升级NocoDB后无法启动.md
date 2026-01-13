@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/解决1Panel升级NocoDB后无法启动/","created":"2025-05-29","updated":"2025-05-29"}
+{"dg-publish":true,"dg-path":"8 零散笔记/解决1Panel升级NocoDB后无法启动.md","permalink":"/8 零散笔记/解决1Panel升级NocoDB后无法启动/","created":"2025-05-29","updated":"2025-05-29"}
 ---
 
 

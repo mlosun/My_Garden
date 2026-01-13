@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/TqSdk 不同合约类型的数据差异/","title":"TqSdk 不同合约类型的数据差异","tags":["Tqsdk"],"created":"2024-10-27","updated":"2024-12-08"}
+{"dg-publish":true,"dg-path":"8 零散笔记/TqSdk 不同合约类型的数据差异.md","permalink":"/8 零散笔记/TqSdk 不同合约类型的数据差异/","title":"TqSdk 不同合约类型的数据差异","tags":["Tqsdk"],"created":"2024-10-27","updated":"2024-12-08"}
 ---
 
 

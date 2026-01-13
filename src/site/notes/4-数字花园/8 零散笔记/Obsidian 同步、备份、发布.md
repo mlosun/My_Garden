@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Obsidian 同步、备份、发布/","created":"2023-12-27","updated":"2024-04-10"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Obsidian 同步、备份、发布.md","permalink":"/8 零散笔记/Obsidian 同步、备份、发布/","created":"2023-12-27","updated":"2024-04-10"}
 ---
 
 ## 同步、备份

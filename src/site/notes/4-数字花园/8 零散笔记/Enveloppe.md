@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Enveloppe/","created":"2025-03-29","updated":"2025-03-29"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Enveloppe.md","permalink":"/8 零散笔记/Enveloppe/","created":"2025-03-29","updated":"2025-03-29"}
 ---
 
 [Quartz与Enveloppe插件结合助力Obsidian搭建数字花园](https://lazyjack.12123123.xyz/%E5%85%B6%E5%AE%83%E8%B5%84%E6%BA%90/Obsidian/Quartz%E4%B8%8EEnveloppe%E6%8F%92%E4%BB%B6%E7%BB%93%E5%90%88%E5%8A%A9%E5%8A%9BObsidian%E6%90%AD%E5%BB%BA%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD#enveloppe%E9%85%8D%E7%BD%AE)

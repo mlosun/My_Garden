@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题/","created":"2024-10-08","updated":"2024-12-08"}
+{"dg-publish":true,"dg-path":"8 零散笔记/解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题.md","permalink":"/8 零散笔记/解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题/","created":"2024-10-08","updated":"2024-12-08"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Obsidian 插件 Tasks/","created":"2024-05-09","updated":"2024-05-09"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Obsidian 插件 Tasks.md","permalink":"/8 零散笔记/Obsidian 插件 Tasks/","created":"2024-05-09","updated":"2024-05-09"}
 ---
 
 简介:: 任务管理插件

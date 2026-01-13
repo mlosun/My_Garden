@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/9 Obsidian/使用Git同步Obsidian-iOS（a-Shell方案）/","created":"2025-08-31","updated":"2025-08-31"}
+{"dg-publish":true,"dg-path":"9 Obsidian/使用Git同步Obsidian-iOS（a-Shell方案）.md","permalink":"/9 Obsidian/使用Git同步Obsidian-iOS（a-Shell方案）/","created":"2025-08-31","updated":"2025-08-31"}
 ---
 
 

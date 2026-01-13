@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/搜集一些MkDocs站点/","created":"2025-04-05","updated":"2025-04-06"}
+{"dg-publish":true,"dg-path":"8 零散笔记/搜集一些MkDocs站点.md","permalink":"/8 零散笔记/搜集一些MkDocs站点/","created":"2025-04-05","updated":"2025-04-06"}
 ---
 
 

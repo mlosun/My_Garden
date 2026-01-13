@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/1 折腾笔记/Memos - 开源自托管轻量笔记/","created":"2024-12-04","updated":"2024-12-10"}
+{"dg-publish":true,"dg-path":"1 折腾笔记/Memos - 开源自托管轻量笔记.md","permalink":"/1 折腾笔记/Memos - 开源自托管轻量笔记/","created":"2024-12-04","updated":"2024-12-10"}
 ---
 
 

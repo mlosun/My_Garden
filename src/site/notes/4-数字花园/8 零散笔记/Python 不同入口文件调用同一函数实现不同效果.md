@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Python 不同入口文件调用同一函数实现不同效果/","created":"2024-10-18","updated":"2024-12-08"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Python 不同入口文件调用同一函数实现不同效果.md","permalink":"/8 零散笔记/Python 不同入口文件调用同一函数实现不同效果/","created":"2024-10-18","updated":"2024-12-08"}
 ---
 
 

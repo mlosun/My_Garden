@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/测试AI模型的能力/","created":"2024-04-03","updated":"2024-04-03"}
+{"dg-publish":true,"dg-path":"8 零散笔记/测试AI模型的能力.md","permalink":"/8 零散笔记/测试AI模型的能力/","created":"2024-04-03","updated":"2024-04-03"}
 ---
 
 ## “弱智”问题

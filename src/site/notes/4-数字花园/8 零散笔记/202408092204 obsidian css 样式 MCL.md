@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/202408092204 obsidian css 样式 MCL/","created":"2024-08-09","updated":"2024-08-09"}
+{"dg-publish":true,"dg-path":"8 零散笔记/202408092204 obsidian css 样式 MCL.md","permalink":"/8 零散笔记/202408092204 obsidian css 样式 MCL/","created":"2024-08-09","updated":"2024-08-09"}
 ---
 
 

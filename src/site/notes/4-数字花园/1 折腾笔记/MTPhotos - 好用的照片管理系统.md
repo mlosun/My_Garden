@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/1 折腾笔记/MTPhotos - 好用的照片管理系统/","created":"2024-12-10","updated":"2025-04-06"}
+{"dg-publish":true,"dg-path":"1 折腾笔记/MTPhotos - 好用的照片管理系统.md","permalink":"/1 折腾笔记/MTPhotos - 好用的照片管理系统/","created":"2024-12-10","updated":"2025-04-06"}
 ---
 
 

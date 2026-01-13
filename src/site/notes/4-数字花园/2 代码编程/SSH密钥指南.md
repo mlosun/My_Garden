@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/2 代码编程/SSH密钥指南/","created":"2025-08-30","updated":"2025-08-31"}
+{"dg-publish":true,"dg-path":"2 代码编程/SSH密钥指南.md","permalink":"/2 代码编程/SSH密钥指南/","created":"2025-08-30","updated":"2025-08-31"}
 ---
 
 

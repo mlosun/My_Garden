@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/1 折腾笔记/MacOS 系统降级流程/","created":"2025-07-28","updated":"2025-07-28"}
+{"dg-publish":true,"dg-path":"1 折腾笔记/MacOS 系统降级流程.md","permalink":"/1 折腾笔记/MacOS 系统降级流程/","created":"2025-07-28","updated":"2025-07-28"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/1 折腾笔记/Chrome扩展清单/","created":"2024-12-03","updated":"2025-05-06"}
+{"dg-publish":true,"dg-path":"1 折腾笔记/Chrome扩展清单.md","permalink":"/1 折腾笔记/Chrome扩展清单/","created":"2024-12-03","updated":"2025-05-06"}
 ---
 
 

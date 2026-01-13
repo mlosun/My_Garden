@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/删除 Github 仓库全部的 commit 记录/","created":"2025-04-06","updated":"2025-04-06"}
+{"dg-publish":true,"dg-path":"8 零散笔记/删除 Github 仓库全部的 commit 记录.md","permalink":"/8 零散笔记/删除 Github 仓库全部的 commit 记录/","created":"2025-04-06","updated":"2025-04-06"}
 ---
 
 

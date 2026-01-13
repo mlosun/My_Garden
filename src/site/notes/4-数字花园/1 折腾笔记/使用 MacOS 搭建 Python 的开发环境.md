@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/1 折腾笔记/使用 MacOS 搭建 Python 的开发环境/","created":"2025-07-28","updated":"2025-07-29"}
+{"dg-publish":true,"dg-path":"1 折腾笔记/使用 MacOS 搭建 Python 的开发环境.md","permalink":"/1 折腾笔记/使用 MacOS 搭建 Python 的开发环境/","created":"2025-07-28","updated":"2025-07-29"}
 ---
 
 

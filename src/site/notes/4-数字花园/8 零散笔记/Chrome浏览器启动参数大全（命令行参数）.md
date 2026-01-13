@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Chrome浏览器启动参数大全（命令行参数）/","created":"2024-04-23","updated":"2024-05-29"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Chrome浏览器启动参数大全（命令行参数）.md","permalink":"/8 零散笔记/Chrome浏览器启动参数大全（命令行参数）/","created":"2024-04-23","updated":"2024-05-29"}
 ---
 
 

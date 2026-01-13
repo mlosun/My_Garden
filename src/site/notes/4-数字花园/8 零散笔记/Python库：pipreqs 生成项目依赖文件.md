@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Python库：pipreqs 生成项目依赖文件/","created":"2024-10-27","updated":"2024-12-08"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Python库：pipreqs 生成项目依赖文件.md","permalink":"/8 零散笔记/Python库：pipreqs 生成项目依赖文件/","created":"2024-10-27","updated":"2024-12-08"}
 ---
 
 

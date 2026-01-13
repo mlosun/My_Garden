@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/那些酷炫的 Obsidian 界面/","created":"2025-06-15","updated":"2025-06-15"}
+{"dg-publish":true,"dg-path":"8 零散笔记/那些酷炫的 Obsidian 界面.md","permalink":"/8 零散笔记/那些酷炫的 Obsidian 界面/","created":"2025-06-15","updated":"2025-06-15"}
 ---
 
 

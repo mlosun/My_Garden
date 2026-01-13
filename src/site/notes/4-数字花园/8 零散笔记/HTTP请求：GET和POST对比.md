@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/HTTP请求：GET和POST对比/","created":"2025-05-25","updated":"2025-05-25"}
+{"dg-publish":true,"dg-path":"8 零散笔记/HTTP请求：GET和POST对比.md","permalink":"/8 零散笔记/HTTP请求：GET和POST对比/","created":"2025-05-25","updated":"2025-05-25"}
 ---
 
 

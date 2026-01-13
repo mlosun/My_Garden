@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/打印全部的 DataFrame 行和列/","created":"2025-04-07","updated":"2025-04-07"}
+{"dg-publish":true,"dg-path":"8 零散笔记/打印全部的 DataFrame 行和列.md","permalink":"/8 零散笔记/打印全部的 DataFrame 行和列/","created":"2025-04-07","updated":"2025-04-07"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/1 折腾笔记/frp - 群晖Nas内网穿透应用/","created":"2024-12-17","updated":"2024-12-24"}
+{"dg-publish":true,"dg-path":"1 折腾笔记/frp - 群晖Nas内网穿透应用.md","permalink":"/1 折腾笔记/frp - 群晖Nas内网穿透应用/","created":"2024-12-17","updated":"2024-12-24"}
 ---
 
 

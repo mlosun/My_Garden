@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/1 折腾笔记/1Panel/","created":"2024-12-04","updated":"2024-12-10"}
+{"dg-publish":true,"dg-path":"1 折腾笔记/1Panel.md","permalink":"/1 折腾笔记/1Panel/","created":"2024-12-04","updated":"2024-12-10"}
 ---
 
 

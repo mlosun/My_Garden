@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/2 代码编程/Git/","created":"2025-05-07","updated":"2025-05-07"}
+{"dg-publish":true,"dg-path":"2 代码编程/Git.md","permalink":"/2 代码编程/Git/","created":"2025-05-07","updated":"2025-05-07"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Obsidian 插件 Templater/","created":"2023-09-19","updated":"2024-04-10"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Obsidian 插件 Templater.md","permalink":"/8 零散笔记/Obsidian 插件 Templater/","created":"2023-09-19","updated":"2024-04-10"}
 ---
 
 简介:: 模板增强插件

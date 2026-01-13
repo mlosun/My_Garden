@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/2 代码编程/Flask框架学习笔记/","created":"2025-05-25","updated":"2025-05-26"}
+{"dg-publish":true,"dg-path":"2 代码编程/Flask框架学习笔记.md","permalink":"/2 代码编程/Flask框架学习笔记/","created":"2025-05-25","updated":"2025-05-26"}
 ---
 
 

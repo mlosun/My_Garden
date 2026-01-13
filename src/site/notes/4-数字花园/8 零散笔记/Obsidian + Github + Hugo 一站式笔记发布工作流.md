@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Obsidian + Github + Hugo 一站式笔记发布工作流/","title":"Obsidian + Github + Hugo 一站式笔记发布工作流","tags":["Hugo","Obsidian","Github","发布"],"created":"2024-09-10","updated":"2024-12-08"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Obsidian + Github + Hugo 一站式笔记发布工作流.md","permalink":"/8 零散笔记/Obsidian + Github + Hugo 一站式笔记发布工作流/","title":"Obsidian + Github + Hugo 一站式笔记发布工作流","tags":["Hugo","Obsidian","Github","发布"],"created":"2024-09-10","updated":"2024-12-08"}
 ---
 
 

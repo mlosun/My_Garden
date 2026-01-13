@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Obsidian 插件 Columns/","created":"2023-12-25","updated":"2023-12-31"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Obsidian 插件 Columns.md","permalink":"/8 零散笔记/Obsidian 插件 Columns/","created":"2023-12-25","updated":"2023-12-31"}
 ---
 
 简介:: 多栏布局插件

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/9 Obsidian/核心插件/❌ 未启用/Markdown 格式转换器/","created":"2025-07-31","updated":"2025-07-31"}
+{"dg-publish":true,"dg-path":"9 Obsidian/核心插件/❌ 未启用/Markdown 格式转换器.md","permalink":"/9 Obsidian/核心插件/❌ 未启用/Markdown 格式转换器/","created":"2025-07-31","updated":"2025-07-31"}
 ---
 
 

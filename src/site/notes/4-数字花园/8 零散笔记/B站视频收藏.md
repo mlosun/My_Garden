@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/B站视频收藏/","created":"2024-12-10","updated":"2024-12-10"}
+{"dg-publish":true,"dg-path":"8 零散笔记/B站视频收藏.md","permalink":"/8 零散笔记/B站视频收藏/","created":"2024-12-10","updated":"2024-12-10"}
 ---
 
 

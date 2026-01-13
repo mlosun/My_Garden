@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/9 Obsidian/社区插件/⏳️ 按需启用/Excalidraw/","created":"2025-07-31","updated":"2025-07-31"}
+{"dg-publish":true,"dg-path":"9 Obsidian/社区插件/⏳️ 按需启用/Excalidraw.md","permalink":"/9 Obsidian/社区插件/⏳️ 按需启用/Excalidraw/","created":"2025-07-31","updated":"2025-07-31"}
 ---
 
 

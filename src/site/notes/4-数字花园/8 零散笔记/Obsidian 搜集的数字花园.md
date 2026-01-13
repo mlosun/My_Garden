@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-数字花园/8 零散笔记/Obsidian 搜集的数字花园/","created":"2023-09-06","updated":"2024-04-10"}
+{"dg-publish":true,"dg-path":"8 零散笔记/Obsidian 搜集的数字花园.md","permalink":"/8 零散笔记/Obsidian 搜集的数字花园/","created":"2023-09-06","updated":"2024-04-10"}
 ---
 
 [Hi , Obsidian Digital Garden :: 木木木木木](https://immmmm.com/hi-obsidian-digital-garden/)
