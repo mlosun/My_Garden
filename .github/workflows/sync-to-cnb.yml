@@ -1,0 +1,26 @@
+# 工作流名称：每次 push 后自动把代码同步到 CNB 私有仓库
+name: Sync to CNB
+
+# 触发条件：任意分支发生 push 即运行
+on: [push]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+
+      # ---- 1. 检出代码 ----
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      # ---- 2. 同步到 CNB 仓库（rebase 模式）----
+      - name: Sync to CNB Repository
+        uses: docker://tencentcom/git-sync
+        env:
+          PLUGIN_TARGET_URL: "https://cnb.cool/mlosun/self/My_Garden"
+          PLUGIN_AUTH_TYPE: "https"
+          PLUGIN_USERNAME: "cnb"
+          PLUGIN_PASSWORD: ${{ secrets.CNB_GIT_PASSWORD  }}
+          PLUGIN_SYNC_MODE: "rebase"

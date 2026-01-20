@@ -1,0 +1,38 @@
+# 工作流名称：每次 push 后自动构建并部署到 EdgeOne Pages
+name: Deploy to EdgeOne Pages
+
+# 触发条件：任意分支发生 push 即运行
+on: [push]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      # ---- 1. 检出代码 ----
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ---- 2. 设置环境 ----
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.11.0' # 选择适合的 Node.js 版本
+      
+      # ---- 3. 安装依赖 ----
+      - name: Install dependencies
+        run: npm install
+      
+      # ---- 4. 构建站点 ----
+      - name: Build project
+        run: npm run build
+      
+      # ---- 5. 部署站点 ----
+      - name: Deploy to EdgeOne Pages
+        run: |
+          docker run --rm \
+            -v $GITHUB_WORKSPACE:/workspace \
+            -w /workspace \
+            -e EDGEONE_API_TOKEN=${{ secrets.EDGEONE_API_TOKEN }} \
+            tencentcom/deploy-eopages:latest \
+            sh -c "edgeone pages deploy ./dist -n mlosun-com -t \$EDGEONE_API_TOKEN -e production"

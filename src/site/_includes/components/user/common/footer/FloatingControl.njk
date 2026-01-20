@@ -1,0 +1,117 @@
+{# 悬浮控制条：固定在右下角 #}
+<aside id="FloatingControl">
+    <a title="返回首页" target="_blank" href="https://mlosun.com">
+        <i icon-name="home" title="Home" aria-hidden="true"></i>
+    </a>
+
+    <a title="查看源码" target="_blank" href="https://github.com/mlosun/My_Garden">
+        <i icon-name="github" title="GitHub" aria-hidden="true"></i>
+    </a>
+
+    <span id="theme-switch" title="切换主题">
+        <i class="svg-icon light" icon-name="sun"      aria-hidden="true"></i>
+        <i class="svg-icon dark"  icon-name="moon"     aria-hidden="true"></i>
+        <i class="svg-icon auto"  icon-name="sun-moon" aria-hidden="true"></i>
+    </span>
+
+    <a title="发送邮件" target="_blank" href="mailto:mlosun@qq.com">
+        <i icon-name="mail" title="Email" aria-hidden="true"></i>
+    </a>
+</aside>
+
+{# 主题切换脚本 #}
+<script>
+    function setThemeIcon(theme) {
+        let toAdd;
+        switch (theme) {
+            case 'dark':
+                toRemove = ['auto', 'light'];
+                break;
+            case 'light':
+                toAdd = 'fa-adjust';
+                toRemove = ['dark', 'auto'];
+                break;
+            default:
+                toRemove = ['light', 'dark'];
+                break;
+        }
+        document.getElementById('theme-switch').classList.add(theme);
+        document.getElementById('theme-switch').classList.remove(...toRemove);
+    }
+    function setTheme(theme, setIcon) {
+        if (setIcon) {
+            setThemeIcon(theme);
+        }
+        if (theme == 'dark') {
+            document.body.classList.remove('theme-light');
+            document.body.classList.add('theme-dark');
+        } else if (theme == "light") {
+            document.body.classList.add('theme-light');
+            document.body.classList.remove('theme-dark');
+        } else {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+            setTheme(theme, false);
+        }
+        
+    }
+    let theme = window.localStorage.getItem('site-theme') || "light";
+    setTheme(theme, true);
+    window.theme = theme;
+    window.localStorage.setItem('site-theme', theme);
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(event) {
+        const settings = window.localStorage.getItem('site-theme');
+        if (!settings || settings == "auto") {
+            window.localStorage.setItem('site-theme', "auto");
+            setTheme("auto", true);
+        }
+    });
+    document.getElementById('theme-switch').addEventListener('click', function() {
+        let theme;
+        if (window.theme == 'auto') {
+            theme = "dark";
+        } else if (window.theme == 'dark') {
+            theme = 'light'
+        } else {
+            theme = 'auto';
+        }
+        setTheme(theme, true);
+        window.localStorage.setItem('site-theme', theme);
+        window.theme = theme;
+    })
+</script>
+
+{# 悬浮控制条样式 #}
+<style>
+#FloatingControl {
+  --size: 24px;
+  position: fixed;
+  inset-block-end: 1vmax;   /* bottom */
+  inset-inline-end: 1vmax;  /* right  */
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5px;
+  font-size: var(--size);
+  color: var(--link-color, #0366d6);
+}
+
+#FloatingControl :is(svg, i) {
+  width: var(--size);
+  height: var(--size);
+  cursor: pointer;
+}
+
+#theme-switch .light,
+#theme-switch .dark,
+#theme-switch .auto {
+  display: none;
+}
+
+#theme-switch.light .light,
+#theme-switch.dark  .dark,
+#theme-switch.auto  .auto {
+  display: inline;
+}
+</style>
