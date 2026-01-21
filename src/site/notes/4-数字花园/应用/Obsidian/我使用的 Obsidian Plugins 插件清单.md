@@ -56,7 +56,7 @@
 
 ### 🔧 功能扩展
 
-1. [BRAT](https://github.com/TfTHacker/obsidian42-brat) 可以直接添加 Github上 的测试版插件/主题。
+1. [BRAT](https://github.com/TfTHacker/obsidian42-brat) 可以直接添加 Github 上的测试版插件/主题。
 2. [Form Flow](https://github.com/vran-dev/obsidian-form-flow) 表单生成插件，支持创建交互式表单。
 3. [Omnisearch](https://github.com/scambier/obsidian-omnisearch) 搜索插件，提供更强大的搜索功能。
 4. [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) 手绘白板插件，支持自由绘制图形和流程图。
