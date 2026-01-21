@@ -66,8 +66,10 @@
 
 ### 🧰 实用工具
 
-1. [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) 日历插件，用于管理和查看日期。
-2. [CSS Editor](https://github.com/Zachatoo/obsidian-css-editor) 允许直接编辑 `.obsidian/snippets/` 中的 CSS 文件。
+1. [Imagine](https://github.com/AlbusGuo/albus-imagine) 强大的 Obsidian 图片管理插件。
+2. [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) 日历插件，用于管理和查看日期。
 3. [CSV Lite](https://github.com/LIUBINfighter/csv-lite) 直接在 Obsidian 中查看和编辑 CSV 文件的插件。
-4. [Imagine](https://github.com/AlbusGuo/albus-imagine) 强大的 Obsidian 图片管理插件。
-5. [Floating Settings](https://github.com/wambo121/Floating-Settings-for-Obsidian)  在新窗口打开设置界面。
+4. [CSS Editor](https://github.com/Zachatoo/obsidian-css-editor) 允许直接编辑 `.obsidian/snippets/` 中的 CSS 文件。
+5. [Gantt Calendar](https://github.com/sustcsugar/obsidian-gantt-calendar) 一个强大的 Obsidian 任务管理和日历插件。
+6. [Floating Settings](https://github.com/wambo121/Floating-Settings-for-Obsidian) 在新窗口打开设置界面。
+
