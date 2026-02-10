@@ -1,10 +1,20 @@
-<div id="twikoo" class="twikoo-container"></div>
+<div style="height: 100px;"></div>
+<br>
+
+<div id="twikoo-container"></div>
+
 <script src="https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
 <script>
-twikoo.init({
-  envId: 'https://twikoo-mlosun.netlify.app',
-  el: '#twikoo',
-  lang: 'zh-CN',
-  path: window.location.pathname
-})
+// 确保 DOM 加载完成后再初始化
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('twikoo-container');
+  if (container) {
+    twikoo.init({
+      envId: 'https://twikoo-mlosun.netlify.app',
+      el: '#twikoo-container',
+      lang: 'zh-CN',
+      path: window.location.pathname
+    });
+  }
+});
 </script>
