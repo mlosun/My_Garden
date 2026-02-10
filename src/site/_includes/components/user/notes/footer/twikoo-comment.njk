@@ -1,0 +1,33 @@
+<div style="height: 100px;"></div>
+<br>
+
+<div id="twikoo-comment" style="max-width: 800px; width: 100%; margin: 0 auto; box-sizing: border-box;"></div>
+
+<script src="https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
+<script>
+(function() {
+  function fixStyle() {
+    var twikoo = document.querySelector('.twikoo');
+    if (!twikoo) return false;
+    twikoo.style.cssText = 'max-width:800px!important;width:100%!important;margin:0 auto!important;box-sizing:border-box!important;position:relative!important;left:0!important;right:0!important';
+    twikoo.querySelectorAll('*').forEach(function(el) {
+      el.style.maxWidth = '100%';
+      el.style.boxSizing = 'border-box';
+    });
+    return true;
+  }
+  
+  var container = document.getElementById('twikoo-comment');
+  if (container) {
+    twikoo.init({
+      envId: 'https://twikoo-mlosun.netlify.app',
+      el: '#twikoo-comment',
+      lang: 'zh-CN',
+      path: window.location.pathname
+    });
+    setTimeout(fixStyle, 500);
+    setTimeout(fixStyle, 1000);
+    setTimeout(fixStyle, 2000);
+  }
+})();
+</script>
