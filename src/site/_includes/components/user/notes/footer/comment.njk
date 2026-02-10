@@ -25,9 +25,10 @@
       lang: 'zh-CN',
       path: window.location.pathname
     });
-    setTimeout(fixStyle, 500);
-    setTimeout(fixStyle, 1000);
-    setTimeout(fixStyle, 2000);
+    var attempts = 0;
+    var timer = setInterval(function() {
+      if (fixStyle() || attempts++ >= 3) clearInterval(timer);
+    }, 500);
   }
 })();
 </script>
