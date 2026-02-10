@@ -1,14 +1,69 @@
-.twikoo,
-.twikoo * {
-  max-width: 100% !important;
-  word-wrap: break-word !important;
+// Twikoo 容器基础限制
+#tcomment,
+.twikoo-container {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.twikoo .tk-input {
+// Twikoo 渲染后的根元素
+.twikoo {
+  max-width: 100% !important;
   width: 100% !important;
-  max-width: 100% !important;
-}
-
-.twikoo .tk-submit {
-  width: auto !important;
+  
+  // 防止所有子元素溢出
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+  }
+  
+  // 输入框特定修复
+  .tk-input {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: auto !important;
+  }
+  
+  // 提交按钮
+  .tk-submit {
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  
+  // 评论内容区域
+  .tk-content {
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+  }
+  
+  // 防止图片撑破
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  // 表情选择器限制
+  .tk-owo-emotion {
+    max-width: 300px !important;
+  }
+  
+  // 主容器内边距调整
+  .tk-main {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 1rem !important;
+    
+    @media (max-width: 768px) {
+      padding: 0.5rem !important;
+    }
+  }
+  
+  // 评论列表容器
+  .tk-comments-container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
