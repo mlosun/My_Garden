@@ -5,16 +5,33 @@
   margin: 20px auto;
   box-sizing: border-box;
 }
+#twikoo-comment .twikoo,
+#twikoo-comment .twikoo * {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
 </style>
 
 <div id="twikoo-comment"></div>
 
 <script src="https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
 <script>
-twikoo.init({
-  envId: 'https://twikoo-mlosun.netlify.app',
-  el: '#twikoo-comment',
-  lang: 'zh-CN',
-  path: window.location.pathname
-});
+(function() {
+  function fixStyle() {
+    return !!document.querySelector('.twikoo');
+  }
+  
+  twikoo.init({
+    envId: 'https://twikoo-mlosun.netlify.app',
+    el: '#twikoo-comment',
+    lang: 'zh-CN',
+    path: window.location.pathname
+  });
+  
+  var attempts = 0;
+  var timer = setInterval(function() {
+    if (fixStyle() || attempts++ >= 3) clearInterval(timer);
+  }, 500);
+})();
 </script>
