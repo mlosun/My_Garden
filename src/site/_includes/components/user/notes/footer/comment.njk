@@ -1,11 +1,10 @@
 <div style="height: 100px;"></div>
 <br>
 
-<div id="twikoo-container"></div>
+<div id="twikoo-container" style="max-width: 100%; width: 100%; box-sizing: border-box;"></div>
 
 <script src="https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
 <script>
-// 确保 DOM 加载完成后再初始化
 document.addEventListener('DOMContentLoaded', function() {
   const container = document.getElementById('twikoo-container');
   if (container) {
@@ -15,6 +14,23 @@ document.addEventListener('DOMContentLoaded', function() {
       lang: 'zh-CN',
       path: window.location.pathname
     });
+    
+    // 强制限制 Twikoo 宽度
+    setTimeout(function() {
+      const twikooEl = container.querySelector('.twikoo');
+      if (twikooEl) {
+        twikooEl.style.cssText = 'max-width: 800px !important; width: 100% !important; margin: 0 auto !important; box-sizing: border-box !important;';
+        
+        // 限制所有子元素
+        twikooEl.querySelectorAll('*').forEach(function(el) {
+          el.style.maxWidth = '100%';
+          el.style.boxSizing = 'border-box';
+          el.style.wordWrap = 'break-word';
+        });
+        
+        console.log('Twikoo 宽度已限制');
+      }
+    }, 500);
   }
 });
 </script>
