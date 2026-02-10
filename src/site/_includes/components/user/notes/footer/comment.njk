@@ -1,36 +1,31 @@
 <div style="height: 100px;"></div>
 <br>
 
-<div id="twikoo-container" style="max-width: 100%; width: 100%; box-sizing: border-box;"></div>
+<div id="twikoo" style="max-width: 800px; width: 100%; margin: 0 auto; box-sizing: border-box;"></div>
 
 <script src="https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const container = document.getElementById('twikoo-container');
-  if (container) {
-    twikoo.init({
-      envId: 'https://twikoo-mlosun.netlify.app',
-      el: '#twikoo-container',
-      lang: 'zh-CN',
-      path: window.location.pathname
-    });
-    
-    // 强制限制 Twikoo 宽度
-    setTimeout(function() {
-      const twikooEl = container.querySelector('.twikoo');
-      if (twikooEl) {
-        twikooEl.style.cssText = 'max-width: 800px !important; width: 100% !important; margin: 0 auto !important; box-sizing: border-box !important;';
-        
-        // 限制所有子元素
-        twikooEl.querySelectorAll('*').forEach(function(el) {
-          el.style.maxWidth = '100%';
-          el.style.boxSizing = 'border-box';
-          el.style.wordWrap = 'break-word';
-        });
-        
-        console.log('Twikoo 宽度已限制');
-      }
-    }, 500);
-  }
+  const container = document.getElementById('twikoo');
+  if (!container) return;
+  
+  twikoo.init({
+    envId: 'https://twikoo-mlosun.netlify.app',
+    el: '#twikoo',
+    lang: 'zh-CN',
+    path: window.location.pathname
+  });
+  
+  // 强制限制宽度
+  setTimeout(function() {
+    const twikooEl = container.querySelector('.twikoo');
+    if (twikooEl) {
+      twikooEl.style.cssText = 'max-width: 800px !important; width: 100% !important; margin: 0 auto !important; box-sizing: border-box !important;';
+      twikooEl.querySelectorAll('*').forEach(function(el) {
+        el.style.maxWidth = '100%';
+        el.style.boxSizing = 'border-box';
+      });
+    }
+  }, 1000);
 });
 </script>
