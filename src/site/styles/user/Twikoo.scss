@@ -1,21 +1,45 @@
-// 添加到 Twikoo.scss 底部
-
-// 强制 Twikoo 容器在页面流中正常显示
-#tcomment {
-  display: block;
-  position: relative;
-  clear: both;
-  
-  // 防止 flex/grid 布局影响
-  .twikoo {
-    display: block !important;
-  }
+// 选择器改为 #twikoo
+#twikoo,
+.twikoo-container {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-// 覆盖可能的 flex 布局导致的拉伸
-.content {
-  #tcomment {
-    width: 100%;
-    max-width: 100%;
+// Twikoo 渲染后的根元素（Twikoo 会在 #twikoo 内部创建 .twikoo）
+.twikoo {
+  max-width: 100% !important;
+  width: 100% !important;
+  
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+  }
+  
+  .tk-input {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .tk-submit {
+    width: auto !important;
+  }
+  
+  .tk-main {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 1rem !important;
+    
+    @media (max-width: 768px) {
+      padding: 0.5rem !important;
+    }
+  }
+  
+  img {
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
