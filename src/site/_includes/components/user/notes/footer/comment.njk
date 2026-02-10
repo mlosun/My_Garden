@@ -11,30 +11,10 @@
 
 <script src="https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
 <script>
-(function() {
-  function fixStyle() {
-    var twikoo = document.querySelector('.twikoo');
-    if (!twikoo) return false;
-    twikoo.style.cssText = 'max-width:800px!important;width:100%!important;margin:0 auto!important;box-sizing:border-box!important';
-    twikoo.querySelectorAll('*').forEach(function(el) {
-      el.style.maxWidth = '100%';
-      el.style.boxSizing = 'border-box';
-    });
-    return true;
-  }
-  
-  var container = document.getElementById('twikoo-comment');
-  if (container) {
-    twikoo.init({
-      envId: 'https://twikoo-mlosun.netlify.app',
-      el: '#twikoo-comment',
-      lang: 'zh-CN',
-      path: window.location.pathname
-    });
-    var attempts = 0;
-    var timer = setInterval(function() {
-      if (fixStyle() || attempts++ >= 3) clearInterval(timer);
-    }, 500);
-  }
-})();
+twikoo.init({
+  envId: 'https://twikoo-mlosun.netlify.app',
+  el: '#twikoo-comment',
+  lang: 'zh-CN',
+  path: window.location.pathname
+});
 </script>
