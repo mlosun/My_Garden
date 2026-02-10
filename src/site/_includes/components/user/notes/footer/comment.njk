@@ -1,0 +1,24 @@
+<style>
+#twikoo-comment {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+#twikoo-comment .twikoo {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
+</style>
+
+<div id="twikoo-comment"></div>
+<script src="https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://twikoo-mlosun.netlify.app',
+  el: '#twikoo-comment',
+  lang: 'zh-CN',
+  path: window.location.pathname
+});
+</script>
